@@ -1,0 +1,8 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalendarDemo", "..\..\Samples\Calendar\CalendarDemo\CalendarDemo_vc160.vcxproj", "{37257368-5787-8821-3983-586619277192}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DatePickerDemo", "..\..\Samples\Calendar\DatePickerDemo\DatePickerDemo_vc160.vcxproj", "{68439927-3346-1525-4568-995745448744}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SQLServerDataProvider", "..\..\Samples\Calendar\SQLServerDataProvider\SQLServerDataProvider_vc160.vcxproj", "{55328985-1596-9614-4953-666443294382}"
+EndProject

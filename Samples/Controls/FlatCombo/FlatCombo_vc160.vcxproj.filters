@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fb41392f-9160-4531-abba-3489cb3fa903}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8b12eb88-8e05-48a7-9656-84d39bf19b3e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{a2a4e9f6-7737-49e2-b468-02b9c7a8584f}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{6eeaf712-a0c7-4d08-bf14-437052d7f4a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FlatCombo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlatComboDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FlatCombo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Common\AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatCombo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlatComboDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FlatCombo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FlatCombo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2007.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2010.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2013.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2012.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2015.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Windows7.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

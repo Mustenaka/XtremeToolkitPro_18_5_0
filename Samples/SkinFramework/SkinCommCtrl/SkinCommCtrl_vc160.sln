@@ -1,0 +1,90 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinCommCtrl", "SkinCommCtrl_vc160.vcxproj", "{79491964-2193-3394-5848-541696236419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Dynamic Debug|x64 = Dynamic Debug|x64
+		Dynamic Debug|x86 = Dynamic Debug|x86
+		Dynamic Release|x64 = Dynamic Release|x64
+		Dynamic Release|x86 = Dynamic Release|x86
+		Dynamic Unicode Debug|x64 = Dynamic Unicode Debug|x64
+		Dynamic Unicode Debug|x86 = Dynamic Unicode Debug|x86
+		Dynamic Unicode Release|x64 = Dynamic Unicode Release|x64
+		Dynamic Unicode Release|x86 = Dynamic Unicode Release|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+		Static Debug|x64 = Static Debug|x64
+		Static Debug|x86 = Static Debug|x86
+		Static Release|x64 = Static Release|x64
+		Static Release|x86 = Static Release|x86
+		Static Unicode Debug|x64 = Static Unicode Debug|x64
+		Static Unicode Debug|x86 = Static Unicode Debug|x86
+		Static Unicode Release|x64 = Static Unicode Release|x64
+		Static Unicode Release|x86 = Static Unicode Release|x86
+		Unicode Debug|x64 = Unicode Debug|x64
+		Unicode Debug|x86 = Unicode Debug|x86
+		Unicode Release|x64 = Unicode Release|x64
+		Unicode Release|x86 = Unicode Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79491964-2193-3394-5848-541696236419}.Debug|x64.ActiveCfg = Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Debug|x64.Build.0 = Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Debug|x86.ActiveCfg = Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Debug|x86.Build.0 = Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Debug|x64.ActiveCfg = Dynamic Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Debug|x64.Build.0 = Dynamic Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Debug|x86.ActiveCfg = Dynamic Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Debug|x86.Build.0 = Dynamic Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Release|x64.ActiveCfg = Dynamic Release|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Release|x64.Build.0 = Dynamic Release|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Release|x86.ActiveCfg = Dynamic Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Release|x86.Build.0 = Dynamic Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Debug|x64.ActiveCfg = Dynamic Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Debug|x64.Build.0 = Dynamic Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Debug|x86.ActiveCfg = Dynamic Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Debug|x86.Build.0 = Dynamic Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Release|x64.ActiveCfg = Dynamic Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Release|x64.Build.0 = Dynamic Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Release|x86.ActiveCfg = Dynamic Unicode Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Dynamic Unicode Release|x86.Build.0 = Dynamic Unicode Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Release|x64.ActiveCfg = Release|x64
+		{79491964-2193-3394-5848-541696236419}.Release|x64.Build.0 = Release|x64
+		{79491964-2193-3394-5848-541696236419}.Release|x86.ActiveCfg = Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Release|x86.Build.0 = Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Debug|x64.ActiveCfg = Static Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Static Debug|x64.Build.0 = Static Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Static Debug|x86.ActiveCfg = Static Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Debug|x86.Build.0 = Static Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Release|x64.ActiveCfg = Static Release|x64
+		{79491964-2193-3394-5848-541696236419}.Static Release|x64.Build.0 = Static Release|x64
+		{79491964-2193-3394-5848-541696236419}.Static Release|x86.ActiveCfg = Static Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Release|x86.Build.0 = Static Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Debug|x64.ActiveCfg = Static Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Debug|x64.Build.0 = Static Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Debug|x86.ActiveCfg = Static Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Debug|x86.Build.0 = Static Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Release|x64.ActiveCfg = Static Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Release|x64.Build.0 = Static Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Release|x86.ActiveCfg = Static Unicode Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Static Unicode Release|x86.Build.0 = Static Unicode Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Unicode Debug|x64.ActiveCfg = Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Unicode Debug|x64.Build.0 = Unicode Debug|x64
+		{79491964-2193-3394-5848-541696236419}.Unicode Debug|x86.ActiveCfg = Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Unicode Debug|x86.Build.0 = Unicode Debug|Win32
+		{79491964-2193-3394-5848-541696236419}.Unicode Release|x64.ActiveCfg = Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Unicode Release|x64.Build.0 = Unicode Release|x64
+		{79491964-2193-3394-5848-541696236419}.Unicode Release|x86.ActiveCfg = Unicode Release|Win32
+		{79491964-2193-3394-5848-541696236419}.Unicode Release|x86.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F893548-3BAF-4569-BFBF-FF1B748800AC}
+	EndGlobalSection
+EndGlobal

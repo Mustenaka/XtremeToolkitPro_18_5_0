@@ -1,0 +1,49 @@
+<Border
+  xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' 
+  xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+  xmlns:xtp='urn:schemas-codejock-com:xaml-extensions'
+  Background='Black'>
+  <Border Name='Scene' Width='600' Height='400' Background='black'>
+    <Grid Name='Placeholder'>
+      <Grid.RenderTransform>
+        <TranslateTransform X='0' Y='0' />
+      </Grid.RenderTransform>
+      <Image Name='Globe' 
+             Source='file://Markups\Globe.gif'
+             Width='183' 
+             Height='183'>
+        <Image.RenderTransform>
+          <ScaleTransform ScaleX='1' ScaleY='1' />
+        </Image.RenderTransform>
+      </Image>
+    </Grid>
+  </Border>
+  <xtp:Script Language='JScript'>
+  //<![CDATA[
+    var SpeedStep = 0.01;
+    var angle = 0;
+
+    // Show some debug information.
+    debugLog('Globe: ' + Globe.Width + 'x' + Globe.Height);
+
+    var Animate = function() {
+      // Rotate the globe.
+      Placeholder.RenderTransform.X = Math.cos(angle) * Scene.Width / 2;
+      Placeholder.RenderTransform.Y = Math.sin(angle) * Scene.Height / 4;
+
+      // Scale the globe.
+      var scaling = 0.75 + Math.sin(angle) / 4;
+      Globe.RenderTransform.ScaleX = scaling;
+      Globe.RenderTransform.ScaleY = scaling;
+
+      // Made it spin slower when it's far.
+      angle += SpeedStep * scaling * 2;
+
+      // Schedule next animation frame.
+      setTimeout(Animate, 10);
+    };
+
+    Animate();
+  //]]>
+  </xtp:Script>
+</Border>

@@ -1,0 +1,118 @@
+<Canvas xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+	x:Name='nodeCanvas' Width='340' Height='172' ConnectionPointsIn='Rhombus'>
+	<Border x:Name='nodeBorder' Width='340' Height='172' Margin='0, 0, 0, 0'  BorderThickness='0' BorderBrush='#000000' CornerRadius='0, 0, 0, 0' CanSetColor='False'>
+		<Border.Background>
+			<LinearGradientBrush StartPoint='0, 0' EndPoint='0, 1'>
+				<GradientStop Offset='0' Color='#000000'/>
+				<GradientStop Offset='0.2' Color='#E1E7F4'/>
+				<GradientStop Offset='0.3' Color='#2E2E2D'/>
+				<GradientStop Offset='.7' Color='#848380'/>
+				<GradientStop Offset='1'   Color='#000000'/>
+			</LinearGradientBrush>
+		</Border.Background>
+		<Grid Width='340' >
+			<Grid.RowDefinitions>
+				<RowDefinition Height='Auto'/>
+				<RowDefinition Height='*'/>
+				<RowDefinition Height='Auto'/>
+			</Grid.RowDefinitions>
+			<Border Margin='-1, 0, 0, 0' BorderThickness='2' BorderBrush='#8C8788' CornerRadius='0'>
+				<Border.Background>
+					<LinearGradientBrush StartPoint='0, 0' EndPoint='0, 1'>
+						<GradientStop Offset='0'    Color='#E1E7F4'/>
+						<GradientStop Offset='0.4'  Color='#000000'/>
+						<GradientStop Offset='.7'   Color='#8C8787'/>
+						<GradientStop Offset='.85'  Color='#FFFFF0'/>
+						<GradientStop Offset='.951' Color='#000000'/>
+					</LinearGradientBrush>
+				</Border.Background>
+
+				<StackPanel Grid.Row ='0' Height='35' Grid.Column='0' Margin='10,-1,0,5' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'>
+					<Image Source='1' Width='33' Height='35'/>
+					<TextBlock Foreground='#FFFFFF' Margin='13,11,70,0'  FontFamily='Arial' FontWeight='Bold' FontSize='9'>
+						<Italic>Chart Pro</Italic>
+						<LineBreak/>
+					</TextBlock>
+					<TextBlock Foreground='#FFD700' Margin='12,12,0,0' FontFamily='Arial' FontWeight='Bold' FontSize='12'>E v e n t<Run Foreground='#000000'>...</Run>R e m i n d e r</TextBlock>
+				</StackPanel>
+			</Border>
+
+			<StackPanel  Grid.Row='1' Grid.Column='0' Margin='10'>
+				<Grid Height='120' >
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width='130' />
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height='105'/>
+						<RowDefinition Height='5'/>
+					</Grid.RowDefinitions>
+
+					<StackPanel Grid.Row ='0' Grid.Column='0' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'>
+						<Image Source='[placeholder5]' MinWidth='80' MinHeight='80'/>
+					</StackPanel>
+				</Grid>
+			</StackPanel>
+
+			<StackPanel  Grid.Row='1' Grid.Column='1' Margin='02'>
+				<Grid Height='120' >
+					<Grid.ColumnDefinitions>
+						<ColumnDefinition Width='120'/>
+						<ColumnDefinition Width='60' />
+						<ColumnDefinition Width='03' />
+						<ColumnDefinition Width='150'/>
+					</Grid.ColumnDefinitions>
+					<Grid.RowDefinitions>
+						<RowDefinition Height='10'/>
+						<RowDefinition Height='20'/>
+						<RowDefinition Height='20'/>
+						<RowDefinition Height='20'/>
+						<RowDefinition Height='20'/>
+						<RowDefinition Height='20'/>
+						<RowDefinition Height='20'/>
+					</Grid.RowDefinitions>
+					<StackPanel Grid.Row ='1' Grid.Column='1' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Right'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#F9AD14' FontWeight='Bold' FontSize='12' Margin='03'>Contact:</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='2' Grid.Column='1' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Right'>
+						<TextBlock TextWrapping='Wrap' Foreground='#F9AD14' FontWeight='Bold'  FontSize='12' Margin='03'>Event:</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='3' Grid.Column='1' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Right'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#F9AD14' FontWeight='Bold'  FontSize='12' Margin='03'>Location:</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='4' Grid.Column='1' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Right'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#F9AD14' FontWeight='Bold'  FontSize='12' Margin='03'>Subject:</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='5' Grid.Column='1' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Right'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#F9AD14' FontWeight='Bold'  FontSize='12' Margin='03'>Due in:</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='1' Grid.Column='3' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#FFFFFF' FontWeight='Bold'  FontSize='12' Margin='03'>[placeholder0]</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='2' Grid.Column='3' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'>
+						<TextBlock TextWrapping='Wrap'  Foreground='#FFFFFF' FontWeight='Bold'  FontSize='12' Margin='03'>[placeholder1]</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='3' Grid.Column='3' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'> 
+						<TextBlock TextWrapping='Wrap'  Foreground='#FFFFFF' FontWeight='Bold'  FontSize='12' Margin='03'>[placeholder2]</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='4' Grid.Column='3' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'> 
+						<TextBlock TextWrapping='Wrap'  Foreground='#FFFFFF' FontWeight='Bold'  FontSize='12' Margin='03'>[placeholder3]</TextBlock>
+					</StackPanel>
+
+					<StackPanel Grid.Row ='5' Grid.Column='3' Background='Transparent' Orientation='Horizontal' VerticalAlignment='Center' HorizontalAlignment='Left'> 
+						<TextBlock TextWrapping='Wrap'  Foreground='#FFFFFF' FontWeight='Bold'  FontSize='12' Margin='03'>[placeholder4]</TextBlock>
+					</StackPanel>
+				</Grid>
+			</StackPanel>
+
+		</Grid>
+	</Border>
+
+</Canvas>

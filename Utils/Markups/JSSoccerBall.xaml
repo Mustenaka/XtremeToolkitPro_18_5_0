@@ -1,0 +1,75 @@
+<Border
+  xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation' 
+  xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+  xmlns:xtp='urn:schemas-codejock-com:xaml-extensions'
+  Background='Black'>
+  <Border Name='Scene' Width='600' Height='400' Background='Green'>
+    <Grid Name='Placeholder'>
+      <Grid.RenderTransform>
+        <TranslateTransform X='0' Y='0' />
+      </Grid.RenderTransform>
+      <Image Name='Ball' 
+             Source='file://Markups\SoccerBall.png'
+             Width='150' 
+             Height='150'>
+        <Image.RenderTransform>
+          <RotateTransform CenterX='75' CenterY='75' />
+        </Image.RenderTransform>
+      </Image>
+    </Grid>
+  </Border>
+  <xtp:Script Language='JScript'>
+  //<![CDATA[
+    var MaxX = Scene.Width / 2 - Ball.Width / 2;
+    var MinX = -Scene.Width / 2 + Ball.Width / 2;
+    var MaxY = Scene.Height / 2 - Ball.Height / 2;
+    var MinY = -Scene.Height / 2 + Ball.Height / 2;
+    var MaxSpeed = 8;
+    var MinSpeed = 2;
+    var speed = 5;
+    var speedStep = 0.01;
+
+    // Show some debug information.
+    debugLog('Ball: ' + Ball.Width + 'x' + Ball.Height);
+    debugLog('X Range: [' + MinX + ' .. ' + MaxX + ']');
+    debugLog('Y Range: [' + MinY + ' .. ' + MaxY + ']');
+
+    var x = 0, y = 0;
+    var rotationDirection = 1;
+    var xDirection = 1;
+    var yDirection = 1;
+    var yCounter = 0;
+    var Animate = function() {
+      // Vary speed.
+      if(MaxSpeed < speed || speed < MinSpeed) {
+        speedStep *= -1;
+      }
+      speed += speedStep;
+
+      // Rotate the ball.
+      Ball.RenderTransform.Angle += speed * rotationDirection;
+
+      // Move the ball along X axis.
+      if(MaxX < x || x < MinX) {
+        xDirection *= -1;
+        rotationDirection *= -1;
+      }
+      x += speed * xDirection;
+      Placeholder.RenderTransform.X = x;
+
+      // Move the ball along Y axis.
+      if(MaxY < y || y < MinY) {
+        yDirection *= -1;
+      }
+      yCounter += (speed / 100) * yDirection;
+      y = Math.sin(yCounter) * (MaxY - MinY);
+      Placeholder.RenderTransform.Y = y;
+
+      // Schedule next animation frame.
+      setTimeout(Animate, 10);
+    };
+
+    Animate();
+  //]]>
+  </xtp:Script>
+</Border>

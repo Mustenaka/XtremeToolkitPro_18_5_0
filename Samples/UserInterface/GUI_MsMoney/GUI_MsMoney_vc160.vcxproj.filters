@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{802b6b0b-529e-4144-8a89-30da247ad6d8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{e8d29199-ba1b-4248-9952-c7394f228bff}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{bcd59ff8-d22a-4e82-82ca-fe59ef2edbef}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GUI_MsMoney.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_MsMoneyDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_MsMoneyView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUI_MsMoney.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GUI_MsMoney.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_MsMoneyDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_MsMoneyView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GUI_MsMoney.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GUI_MsMoney.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GUI_MsMoneyDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\startpage.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDisabled.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDisabled_Green.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDisabled_Red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot_Green.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarHot_Red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarNormal_Green.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarNormal_Red.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1510 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDR_MAINFRAME2013_CB_16 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_16.png"
+IDR_MAINFRAME2013_CB_24 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_24.png"
+IDR_MAINFRAME2013_CB_32 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_32.png"
+IDR_MAINFRAME2013_CB_40 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_40.png"
+IDR_MAINFRAME2013_CB_48 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_48.png"
+IDR_MAINFRAME2013_CB_64 PNG     MOVEABLE PURE   "res\\ToolbarOffice2013\\Toolbar2013_64.png"
+IDR_MAINFRAMEVS2015BLUE_CB_16 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_16.png"
+IDR_MAINFRAMEVS2015BLUE_CB_24 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_24.png"
+IDR_MAINFRAMEVS2015BLUE_CB_32 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_32.png"
+IDR_MAINFRAMEVS2015BLUE_CB_40 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_40.png"
+IDR_MAINFRAMEVS2015BLUE_CB_48 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_48.png"
+IDR_MAINFRAMEVS2015BLUE_CB_64 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarBlue_64.png"
+IDR_MAINFRAMEVS2015DARK_CB_16 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_16.png"
+IDR_MAINFRAMEVS2015DARK_CB_24 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_24.png"
+IDR_MAINFRAMEVS2015DARK_CB_32 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_32.png"
+IDR_MAINFRAMEVS2015DARK_CB_40 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_40.png"
+IDR_MAINFRAMEVS2015DARK_CB_48 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_48.png"
+IDR_MAINFRAMEVS2015DARK_CB_64 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarDark_64.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_16 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_16.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_24 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_24.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_32 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_32.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_40 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_40.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_48 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_48.png"
+IDR_MAINFRAMEVS2015LIGHT_CB_64 PNG     DISCARDABLE     "res\\ToolbarVisualStudio2015\\ToolbarLight_64.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU_CONTEXT_GROUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Collapse &All Groups",        ID_POPUP_COLLAPSEALLGROUPS
+        MENUITEM "E&xpand All Groups",          ID_POPUP_EXPANDALLGROUPS
+    END
+END
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Pa&ge Setup...",              ID_FILE_PAGE_SETUP
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "Skin Framework"
+        BEGIN
+            MENUITEM "None",                        ID_VIEW_SKIN_NONE
+            MENUITEM "Office 2007",                 ID_VIEW_SKIN_OFFICE_2007
+            MENUITEM "Office 2010",                 ID_VIEW_SKIN_OFFICE_2010
+            MENUITEM "Vista",                       ID_VIEW_SKIN_VISTA
+        END
+    END
+    POPUP "Theme"
+    BEGIN
+        MENUITEM "Select Theme...",             ID_VIEW_THEME_THEMEDIALOG
+    END
+    POPUP "&Report Control"
+    BEGIN
+        POPUP "Report Behavior"
+        BEGIN
+            MENUITEM "Codejock default",            ID_BEHAVIOR_CODEJOCKDEFAULT
+
+            MENUITEM "Codejock 15.0.2",             ID_BEHAVIOR_CODEJOCK1502
+            MENUITEM "Codejock 15.0.1",             ID_BEHAVIOR_CODEJOCK1501
+            MENUITEM "Codejock 13.4.2",             ID_BEHAVIOR_CODEJOCK1342
+            MENUITEM SEPARATOR
+            MENUITEM "Outlook 2003",                ID_BEHAVIOR_OUTLOOK2003
+            MENUITEM "Outlook 2007",                ID_BEHAVIOR_OUTLOOK2007
+            MENUITEM "Outlook 2010",                ID_BEHAVIOR_OUTLOOK2010
+            MENUITEM SEPARATOR
+            MENUITEM "Excel 2003",                  ID_BEHAVIOR_EXCEL2003
+            MENUITEM "Excel 2007",                  ID_BEHAVIOR_EXCEL2007
+            MENUITEM "Excel 2010",                  ID_BEHAVIOR_EXCEL2010
+            MENUITEM SEPARATOR
+            MENUITEM "Custom",                      ID_BEHAVIOR_EXCEL2010
+        END
+        POPUP "Report &Control"
+        BEGIN
+            MENUITEM "Toggle Group By box",         ID_TEST_GROUPBY
+            MENUITEM "&Toggle Preview Mode",        ID_ENABLE_PREVIEW
+            MENUITEM "Double buffering",            ID_REPORTCONTROL_DOUBLEBUFFERING
+
+            MENUITEM "Lock Expand",                 ID_REPORTCONTROL_LOCKEXPAND
+
+            MENUITEM "&Multiple Selection",         ID_OPTIONS_MULTIPLESELECTION
+
+            MENUITEM "Right To Left",               ID_REPORTCONTROL_RIGHTTOLEFT
+
+            MENUITEM "Watermark",                   ID_REPORTCONTROL_WATERMARK
+
+            MENUITEM "Show Markup Sample",          ID_REPORTCONTROL_MARKUP
+            MENUITEM SEPARATOR
+            POPUP "Freeze columns"
+            BEGIN
+                MENUITEM "None (0)",                    ID_OPTIONS_FREEZECOLUMNS_0
+
+                MENUITEM "1",                           ID_OPTIONS_FREEZECOLUMNS_1
+
+                MENUITEM "2",                           ID_OPTIONS_FREEZECOLUMNS_2
+
+                MENUITEM "3",                           ID_OPTIONS_FREEZECOLUMNS_3
+
+            END
+            POPUP "Freeze columns divider"
+            BEGIN
+                MENUITEM "None",                        ID_OPTIONS_FREEZECOLUMNS_DIVIDER_NONE
+
+                MENUITEM "Thin",                        ID_OPTIONS_FREEZECOLUMNS_DIVIDER_1
+
+                MENUITEM "Bold",                        ID_OPTIONS_FREEZECOLUMNS_DIVIDER_2
+
+                MENUITEM "Shade",                       ID_OPTIONS_FREEZECOLUMNS_DIVIDER_SHADE
+
+                MENUITEM SEPARATOR
+                MENUITEM "Header",                      ID_OPTIONS_FREEZECOLUMNS_DIVIDER_HEADER
+
+            END
+        END
+        POPUP "Report &Header"
+        BEGIN
+            MENUITEM "&Allow Columns Remove",       ID_OPTIONS_ALLOWCOLUMNSREMOVE
+
+            MENUITEM "A&llow Column Resize",        ID_OPTIONS_ALLOWCOLUMNRESIZE
+
+            MENUITEM "Allow Column Reorder",        ID_REPORTHEADER_ALLOWCOLUMNREORDER
+
+            MENUITEM SEPARATOR
+            MENUITEM "Automat&ic column sizing",    ID_OPTIONS_AUTOMATICCOLUMNSIZING
+
+            MENUITEM "A&utomatically group according to arragement", 
+                                                    ID_OPTIONS_SHOWITEMSINGROUPS
+
+            MENUITEM SEPARATOR
+            MENUITEM "Show footer",                 ID_OPTIONS_SHOW_FOOTER
+        END
+        POPUP "Report &Paint Manager"
+        BEGIN
+            POPUP "Grid Line Style"
+            BEGIN
+                POPUP "&Horizontal"
+                BEGIN
+                    MENUITEM "No Grid Lines",               ID_GRID_HORIZONTAL_NOGRIDLINES
+
+                    MENUITEM "Small Dots",                  ID_GRID_HORIZONTAL_SMALLDOTS
+
+                    MENUITEM "Large Dots",                  ID_GRID_HORIZONTAL_LARGEDOTS
+
+                    MENUITEM "Dashes",                      ID_GRID_HORIZONTAL_DASHES
+
+                    MENUITEM "Solid",                       ID_GRID_HORIZONTAL_SOLID
+
+                END
+                POPUP "&Vertical"
+                BEGIN
+                    MENUITEM "No Grid Lines",               ID_GRID_VERTICAL_NOGRIDLINES
+
+                    MENUITEM "Small Dots",                  ID_GRID_VERTICAL_SMALLDOTS
+
+                    MENUITEM "Large Dots",                  ID_GRID_VERTICAL_LARGEDOTS
+
+                    MENUITEM "Dashes",                      ID_GRID_VERTICAL_DASHES
+
+                    MENUITEM "Solid",                       ID_GRID_VERTICAL_SOLID
+
+                END
+            END
+            POPUP "Grid Color"
+            BEGIN
+                MENUITEM "&Red",                        ID_GRID_COLOR_RED
+                MENUITEM "&Green",                      ID_GRID_COLOR_GREEN
+                MENUITEM "&Blue",                       ID_GRID_COLOR_BLUE
+            END
+            MENUITEM SEPARATOR
+            MENUITEM "Shade group headings",        ID_TEST_GROUPSHADE
+            MENUITEM "Bold group rows",             ID_TEST_GROUPSBOLD
+        END
+        MENUITEM SEPARATOR
+        POPUP "Horizontal scrolling"
+        BEGIN
+            MENUITEM "Block scrolling (count)",     ID_SCROLLING_HORIZONTAL_BLOCK_COUNT
+
+            MENUITEM "Block scrolling (size)",      ID_SCROLLING_HORIZONTAL_BLOCK_SIZE
+
+            MENUITEM "Smooth scrolling",            ID_SCROLLING_HORIZONTAL_SMOOTH
+
+        END
+        POPUP "Vertical scrolling"
+        BEGIN
+            MENUITEM "Block scrolling (count)",     ID_SCROLLING_VERTICAL_BLOCK_COUNT
+
+            MENUITEM "Smooth scrolling",            ID_SCROLLING_VERTICAL_SMOOTH
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Automatic formatting sample", ID_REPORTCONTROL_AUTOMATICFORMATTINGSAMPLE
+
+        MENUITEM "Multiline Sample",            ID_REPORTCONTROL_MULTILINESAMPLE
+
+        MENUITEM SEPARATOR
+        MENUITEM "Test FindRecordItem",         ID_REPORTCONTROL_DEVTEST
+        MENUITEM "&Filter window",              ID_TEST_FILTERWINDOW
+        MENUITEM "Field &chooser",              ID_TEST_FIELDCHOOSER
+        MENUITEM "Icon View",                   ID_REPORTCONTROL_ICONVIEW
+        MENUITEM "WYSIWYG Print Mode",          ID_REPORTCONTROL_WYSIWYG_PRINT
+
+        MENUITEM SEPARATOR
+        POPUP "&Control Test"
+        BEGIN
+            MENUITEM "Tree view dialog",            ID_TEST_TREEVIEWDIALOG
+            MENUITEM "Tree edit dialog",            ID_TEST_TREEEDITDIALOG
+            MENUITEM "Task List sample",            ID_TEST_TASKLIST
+            MENUITEM "Perfomance Test",             ID_TEST_PERFOMANCE
+            MENUITEM "Properties Test",             ID_TEST_PROPERTIES
+            MENUITEM "HeaderFooter Test",           ID_TEST_HEADERFOOTER
+            MENUITEM "Formula dialog",              ID_TEST_FORMULADIALOG
+            MENUITEM "Merge test",                  ID_TEST_MERGE
+            MENUITEM "Selection test",              ID_TEST_SELECTION
+        END
+        POPUP "&Quality assurance"
+        BEGIN
+            MENUITEM "Empty report",                ID_TEST_EMPTY
+            MENUITEM "Constraints test",            ID_TEST_CONSTRAINTS
+            MENUITEM "Smooth Scroll Test",          ID_TEST_SMOOTH_SCROLL
+            MENUITEM "Notifications",               ID_TEST_NOTIFICATIONS
+            MENUITEM "Popup",                       ID_TEST_POPUP
+            MENUITEM "Alternate background",        ID_TEST_ALTERNATE_BACKGROUND
+
+            MENUITEM "Drag && Drop",                ID_TEST_DRAG_DROP
+            MENUITEM "Hit test",                    ID_TEST_HITTEST
+            MENUITEM "Header alignment",            ID_TEST_HEADER_ALIGNMENT
+            MENUITEM "Combobox",                    ID_TEST_COMBOBOX
+            MENUITEM "Item types",                  ID_TEST_ITEM_TYPES
+            MENUITEM "Markup",                      ID_TEST_MARKUP
+            MENUITEM "Ensure visible",              ID_TEST_ENSURE_VISIBLE
+            MENUITEM "Columns",                     ID_TEST_COLUMNS
+            MENUITEM "Tree (Expand)",               ID_TEST_EXPAND
+        END
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Report Control Sample...", ID_APP_ABOUT
+    END
+END
+
+IDR_TASKLIST MENU DISCARDABLE 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Add Task",                   ID_EDIT_ADDTASK
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Report Control"
+    BEGIN
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Allow edit",                  ID_REPORTCONTROL_ALLOWEDIT
+
+            MENUITEM "Edit on click",               ID_REPORTCONTROL_EDITONCLICK
+
+            MENUITEM "Edit on delay click",         ID_REPORTCONTROL_EDITONDELAYCLICK
+
+            MENUITEM "Edit on double click",        ID_REPORTCONTROL_EDITONDOUBLECLICK
+
+        END
+        MENUITEM "Auto sizing",                 ID_REPORTCONTROL_AUTOSIZING
+        MENUITEM "Focus sub items",             ID_REPORTCONTROL_FOCUSSUBITEMS
+
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Report Control Sample...", ID_APP_ABOUT
+    END
+END
+
+IDR_HEADERFOOTER MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Pa&ge Setup...",              ID_FILE_PAGE_SETUP
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+    END
+    POPUP "&Report Control"
+    BEGIN
+        MENUITEM "Show HeaderRecords",          ID_REPORTCONTROL_SHOWHEADERRECORDS
+
+        MENUITEM "Show FooterRecords",          ID_REPORTCONTROL_SHOWFOOTERRECORDS
+
+        MENUITEM SEPARATOR
+        MENUITEM "Show Group By",               ID_REPORTCONTROL_SHOW_GROUPBY
+
+        MENUITEM SEPARATOR
+        MENUITEM "HeaderRecords editable",      ID_REPORTCONTROL_HEADERRECORDS_EDIT
+
+        MENUITEM "FooterRecords editable",      ID_REPORTCONTROL_FOOTERRECORDS_EDIT
+
+        MENUITEM SEPARATOR
+        POPUP "Theme"
+        BEGIN
+            MENUITEM "Office 2003",                 ID_REPORTCONTROL_THEME_OFFICE2003
+
+            MENUITEM "Office XP",                   ID_REPORTCONTROL_THEME_OFFICEXP
+
+            MENUITEM "Explorer",                    ID_REPORTCONTROL_THEME_EXPLORER
+
+            MENUITEM "Office 2003 (Luna)",          ID_REPORTCONTROL_THEME_OFFICE2003LUNA
+
+        END
+        MENUITEM SEPARATOR
+        POPUP "HeaderDivider style"
+        BEGIN
+            MENUITEM "Thin",                        ID_REPORTCONTROL_HDIV_THIN
+
+            MENUITEM "Bold",                        ID_REPORTCONTROL_HDIV_BOLD
+
+            MENUITEM "Shade",                       ID_REPORTCONTROL_HDIV_SHADE
+
+            MENUITEM "None",                        ID_REPORTCONTROL_HDIV_NONE
+
+            MENUITEM "Outlook",                     ID_REPORTCONTROL_HDIV_OUTLOOK
+
+        END
+        POPUP "FooterDivider style"
+        BEGIN
+            MENUITEM "Thin",                        ID_REPORTCONTROL_FDIV_THIN
+
+            MENUITEM "Bold",                        ID_REPORTCONTROL_FDIV_BOLD
+
+            MENUITEM "Shade",                       ID_REPORTCONTROL_FDIV_SHADE
+
+            MENUITEM "None",                        ID_REPORTCONTROL_FDIV_NONE
+
+            MENUITEM "Outlook",                     ID_REPORTCONTROL_FDIV_OUTLOOK
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Pin Footer Rows",             ID_REPORTCONTROL_PIN_FOOTER
+        MENUITEM "Pin Footer Rows Printed",     ID_REPORTCONTROL_PIN_FOOTER_PRINTED
+
+        MENUITEM SEPARATOR
+        MENUITEM "Draw Grid For Empty Space",   ID_REPORTCONTROL_DRAW_GRID_EMPTY
+
+        MENUITEM SEPARATOR
+        MENUITEM "Freeze Column 3",             ID_REPORTCONTROL_FREEZE_COLUMN_3
+
+        MENUITEM SEPARATOR
+        POPUP "Navigator"
+        BEGIN
+            MENUITEM "Current Focus In Headers Rows ", 
+                                                    ID_REPORTCONTROL_MOVEINHEADER
+
+            MENUITEM "Current Focus In Footers Rows ", 
+                                                    ID_REPORTCONTROL_MOVEINFOOTER
+
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "Smooth scrolling",            ID_REPORTCONTROL_SMOOTH_SCROLLING
+
+    END
+END
+
+IDR_MERGE MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Pa&ge Setup...",              ID_FILE_PAGE_SETUP
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Report Control"
+    BEGIN
+        POPUP "Grid Line Style"
+        BEGIN
+            POPUP "&Horizontal"
+            BEGIN
+                MENUITEM "No Grid Lines",               ID_GRID_HORIZONTAL_NOGRIDLINES
+
+                MENUITEM "Small Dots",                  ID_GRID_HORIZONTAL_SMALLDOTS
+
+                MENUITEM "Large Dots",                  ID_GRID_HORIZONTAL_LARGEDOTS
+
+                MENUITEM "Dashes",                      ID_GRID_HORIZONTAL_DASHES
+
+                MENUITEM "Solid",                       ID_GRID_HORIZONTAL_SOLID
+
+            END
+            POPUP "&Vertical"
+            BEGIN
+                MENUITEM "No Grid Lines",               ID_GRID_VERTICAL_NOGRIDLINES
+
+                MENUITEM "Small Dots",                  ID_GRID_VERTICAL_SMALLDOTS
+
+                MENUITEM "Large Dots",                  ID_GRID_VERTICAL_LARGEDOTS
+
+                MENUITEM "Dashes",                      ID_GRID_VERTICAL_DASHES
+
+                MENUITEM "Solid",                       ID_GRID_VERTICAL_SOLID
+
+            END
+        END
+        POPUP "Edit"
+        BEGIN
+            MENUITEM "Allow edit",                  ID_REPORTCONTROL_ALLOWEDIT
+
+            MENUITEM "Edit on click",               ID_REPORTCONTROL_EDITONCLICK
+
+            MENUITEM "Edit on delay click",         ID_REPORTCONTROL_EDITONDELAYCLICK
+
+            MENUITEM "Edit on double click",        ID_REPORTCONTROL_EDITONDOUBLECLICK
+
+        END
+        MENUITEM "Auto sizing",                 ID_REPORTCONTROL_AUTOSIZING
+        MENUITEM "Focus sub items",             ID_REPORTCONTROL_FOCUSSUBITEMS
+
+        MENUITEM "Watermark",                   ID_REPORTCONTROL_WATERMARK
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Report Control Sample...", ID_APP_ABOUT
+    END
+END
+
+IDR_SMOOTHSCROLL MENU DISCARDABLE 
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Report Control Sample...", ID_APP_ABOUT
+    END
+END
+
+IDR_MENU_TEST_POPUP MENU DISCARDABLE 
+BEGIN
+    POPUP "Group row"
+    BEGIN
+        MENUITEM "Group row",                   ID_TEST_POPUP_GROUPROW
+    END
+    POPUP "Row"
+    BEGIN
+        MENUITEM "Row",                         ID_TEST_POPUP_ROW
+    END
+    POPUP "Section"
+    BEGIN
+        MENUITEM "Section",                     ID_TEST_POPUP_SECTION
+    END
+END
+
+IDR_MENU_CONTEXT_ROW MENU DISCARDABLE 
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "Mark as &read",               ID_POPUP_MARK_READ
+        MENUITEM "Mark as &unread",             ID_POPUP_MARK_UNREAD
+    END
+END
+
+IDR_MENU_TEST_COLUMNS MENU DISCARDABLE 
+BEGIN
+    POPUP "Group row"
+    BEGIN
+        MENUITEM "Group row",                   ID_TEST_POPUP_GROUPROW
+    END
+    POPUP "Row"
+    BEGIN
+        MENUITEM "Row",                         ID_TEST_POPUP_ROW
+    END
+    POPUP "Section"
+    BEGIN
+        MENUITEM "Section",                     ID_TEST_POPUP_SECTION
+    END
+    POPUP "Header"
+    BEGIN
+        MENUITEM "Remove column",               ID_TEST_COLUMN_REMOVE
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE MOVEABLE PURE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ReportSample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CjSample.ico"
+IDR_REPORTTYPE          ICON    DISCARDABLE     "res\\ReportSampleDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_ICONVIEWTEST        BITMAP  MOVEABLE PURE   "res\\IconView.bmp"
+IDB_ICONVIEWTESTSMALL   BITMAP  MOVEABLE PURE   "res\\IconViewSmall.bmp"
+IDB_CODEJOCKGEAR        BITMAP  DISCARDABLE     "res\\codejockgear.bmp"
+IDB_BMREPORT_16         BITMAP  DISCARDABLE     "res\\bmreport_16.bmp"
+IDB_BMREPORT_20         BITMAP  DISCARDABLE     "res\\bmreport_20.bmp"
+IDB_BMREPORT_24         BITMAP  DISCARDABLE     "res\\bmreport_24.bmp"
+IDB_BMREPORT_32         BITMAP  DISCARDABLE     "res\\bmreport_32.bmp"
+IDB_BMREPORT2013_16     BITMAP  DISCARDABLE     "res\\bmreport2013_16.bmp"
+IDB_BMREPORT2013_20     BITMAP  DISCARDABLE     "res\\bmreport2013_20.bmp"
+IDB_BMREPORT2013_24     BITMAP  DISCARDABLE     "res\\bmreport2013_24.bmp"
+IDB_BMREPORT2013_32     BITMAP  DISCARDABLE     "res\\bmreport2013_32.bmp"
+IDB_BMREPORT_VS2015_BLUE_16 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_blue_16.bmp"
+IDB_BMREPORT_VS2015_BLUE_20 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_blue_20.bmp"
+IDB_BMREPORT_VS2015_BLUE_24 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_blue_24.bmp"
+IDB_BMREPORT_VS2015_BLUE_32 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_blue_32.bmp"
+IDB_BMREPORT_VS2015_DARK_16 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_dark_16.bmp"
+IDB_BMREPORT_VS2015_DARK_20 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_dark_20.bmp"
+IDB_BMREPORT_VS2015_DARK_24 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_dark_24.bmp"
+IDB_BMREPORT_VS2015_DARK_32 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_dark_32.bmp"
+IDB_BMREPORT_VS2015_LIGHT_16 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_light_16.bmp"
+IDB_BMREPORT_VS2015_LIGHT_20 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_light_20.bmp"
+IDB_BMREPORT_VS2015_LIGHT_24 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_light_24.bmp"
+IDB_BMREPORT_VS2015_LIGHT_32 BITMAP  DISCARDABLE     "res\\bmreport_vs2015_light_32.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR MOVEABLE PURE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TREEVIEW_CHILD DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tree View"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Expand all",IDC_EXPAND,8,250,86,14
+    PUSHBUTTON      "Collapse",IDC_COLLAPSE,98,250,87,15
+    CONTROL         "Expanded notification",IDC_NOTIFICATION_EXPANDED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,190,250,81,11
+END
+
+IDD_TREEVIEW DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tree View"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+END
+
+IDD_FIELDCHOOSER DIALOG DISCARDABLE  0, 0, 77, 129
+STYLE DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LISTBOX         IDC_COLUMNLIST,3,3,71,123,LBS_OWNERDRAWFIXED | 
+                    LBS_HASSTRINGS | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_FILTEREDIT DIALOG DISCARDABLE  0, 0, 95, 18
+STYLE DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg"
+BEGIN
+    EDITTEXT        IDC_FILTEREDIT,4,3,88,12,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_PERFOMANCE DIALOGEX 0, 0, 244, 193
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Perfomance Test"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,187,172,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,230,156,
+                    WS_EX_STATICEDGE
+END
+
+IDD_FORMULA DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Formula test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+END
+
+IDD_CONSTRAINTS DIALOGEX 0, 0, 218, 129
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Constraints test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,161,108,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,203,98,
+                    WS_EX_STATICEDGE
+    PUSHBUTTON      "Caption test",IDC_CAPTION,104,108,50,14
+END
+
+IDD_EMPTY DIALOGEX 0, 0, 430, 269
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Empty control"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,248,50,14
+    CONTROL         "",IDC_REPORT1,"XTPReport",WS_TABSTOP,7,7,203,93,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_REPORT2,"XTPReport",WS_TABSTOP,221,7,202,93,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_REPORT3,"XTPReport",WS_TABSTOP,7,110,203,90,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_REPORT4,"XTPReport",WS_TABSTOP,220,110,203,90,
+                    WS_EX_STATICEDGE
+    LTEXT           "Horizontal scroll mode:",IDC_STATIC,7,210,73,10
+    LTEXT           "Vertical scroll mode:",IDC_STATIC,7,230,69,9
+    COMBOBOX        IDC_SCROLLMODE_H,86,208,94,39,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SCROLLMODE_V,86,228,94,34,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_TEST_NOTIFICATIONS DIALOGEX 0, 0, 496, 316
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Notifications"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,439,295,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,343,153,
+                    WS_EX_STATICEDGE
+    GROUPBOX        "Options",IDC_STATIC,360,72,129,93
+    CONTROL         "List1",IDC_NOTIFICATIONS,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,166,343,115
+    CONTROL         "Cancel &focus changing",IDC_CANCEL_FOCUS_CHANGING,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,370,88,89,10
+    CONTROL         "Cancel LButton down",IDC_CANCEL_LBUTTON_DOWN,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,370,103,84,10
+    CONTROL         "Cancel LButton up",IDC_CANCEL_LBUTTON_UP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,370,118,75,10
+    CONTROL         "Cancel selection clear",IDC_CANCEL_SELECTION_CLEAR,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,370,131,85,10
+    CONTROL         "Cancel selection add",IDC_CANCEL_SELECTION_ADD,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,370,145,82,10
+    PUSHBUTTON      "Remove R&ow Ex",IDC_REMOVE_ROW_EX,370,188,106,15
+    GROUPBOX        "Actions",IDC_STATIC,360,173,129,115
+    PUSHBUTTON      "&Clear notifications",IDC_CLEAR_NOTIFICATIONS,370,265,
+                    106,16
+    COMBOBOX        IDC_BEHAVIOR,394,7,95,12,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Behavior:",IDC_STATIC,360,9,31,9
+    PUSHBUTTON      "Remove R&ecord Ex",IDC_REMOVE_RECORD_EX,370,207,106,14
+    PUSHBUTTON      "&Select focused row",IDC_SELECT_FOCUSED_ROW,370,225,106,
+                    14
+    GROUPBOX        "Header rows",IDC_STATIC,360,24,129,42
+    CONTROL         "Enable selection",IDC_HEADER_ROWS_ENABLE_SELECTION,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,370,37,68,10
+    CONTROL         "Allow access",IDC_HEADER_ROWS_ALLOW_ACCESS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,370,51,57,10
+END
+
+IDD_TEST_POPUP DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Popup"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+END
+
+IDD_TEST_ALTERNATE_BACKGROUND DIALOGEX 0, 0, 430, 303
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Alternate background"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,282,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+    CONTROL         "Show header",IDC_SHOW_HEADER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,262,58,10
+    CONTROL         "Show watermark",IDC_SHOW_WATERMARK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,273,69,10
+    CONTROL         "Alternate background",IDC_ALTERNATE_BACKGROUND,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,251,84,10
+END
+
+IDD_TEST_DRAG_DROP DIALOGEX 0, 0, 430, 286
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Drag & Drop"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,265,50,14
+    CONTROL         "",IDC_REPORT1,"XTPReport",WS_TABSTOP,7,7,205,238,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_REPORT2,"XTPReport",WS_TABSTOP,217,7,206,238,
+                    WS_EX_STATICEDGE
+    CONTROL         "Sorted Drag && Drop",IDC_SORTED_DRAG_DROP2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,217,252,77,10
+    CONTROL         "Sorted Drag && Drop",IDC_SORTED_DRAG_DROP1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,252,77,10
+END
+
+IDD_TEST_HITTEST DIALOGEX 0, 0, 357, 290
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Hit Test"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,300,269,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,343,169,
+                    WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_HITTEST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,180,343,80
+END
+
+IDD_TEST_HEADER_ALIGNMENT DIALOGEX 0, 0, 501, 314
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Header alignment"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,444,293,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,487,238,
+                    WS_EX_STATICEDGE
+    CONTROL         "Fixed row height",IDC_FIXED_ROW_HEIGHT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,251,67,10
+    EDITTEXT        IDC_HEADER_HEIGHT,56,264,19,13,ES_AUTOHSCROLL
+    LTEXT           "Header height:",IDC_STATIC,7,266,49,10
+    LTEXT           "Theme:",IDC_STATIC,130,252,25,8
+    COMBOBOX        IDC_THEME,157,250,118,50,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+END
+
+IDD_TEST_COMBOBOX DIALOGEX 0, 0, 430, 300
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "ComboBox"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,279,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+    CONTROL         "Show non-active inplace buttons",IDC_SHOW_INPLACE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,150,251,119,10
+    CONTROL         "Edit on delay click",IDC_EDIT_ON_DELAY_CLICK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,265,73,10
+    CONTROL         "Edit on click",IDC_EDIT_ON_CLICK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,7,252,55,10
+END
+
+IDD_TEST_ITEM_TYPES DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Item types"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+END
+
+IDD_FINDRECORD DIALOG DISCARDABLE  0, 0, 221, 112
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find record"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Options",IDC_STATIC,142,7,72,73
+    CONTROL         "Exact phrase",IDC_OPTION_EXACT_PHRASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,18,57,10
+    CONTROL         "Match case",IDC_OPTION_MATCH_CASE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,29,53,10
+    CONTROL         "Backward",IDC_OPTION_BACKWARD,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,150,40,48,10
+    CONTROL         "Exact start",IDC_OPTION_EXACT_START,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,150,51,49,10
+    GROUPBOX        "Parameter",IDC_STATIC,7,7,124,73
+    EDITTEXT        IDC_RECORD_START,65,17,60,13,ES_AUTOHSCROLL
+    LTEXT           "Start record:",IDC_STATIC,15,20,41,10
+    LTEXT           "End record:",IDC_STATIC,15,35,40,10
+    EDITTEXT        IDC_RECORD_END,65,32,60,13,ES_AUTOHSCROLL
+    LTEXT           "Start column:",IDC_STATIC,15,49,42,11
+    LTEXT           "End column:",IDC_STATIC,15,64,47,11
+    EDITTEXT        IDC_COLUMN_START,65,47,60,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_COLUMN_END,65,62,60,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cancel",IDCANCEL,154,90,60,15
+    PUSHBUTTON      "Find",IDC_FIND,83,90,61,15
+END
+
+IDD_TEST_MARKUP DIALOGEX 0, 0, 407, 290
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Markup"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,350,269,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,293,169,
+                    WS_EX_STATICEDGE
+    CONTROL         "List1",IDC_HITTEST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_NOLABELWRAP | LVS_NOSORTHEADER | 
+                    WS_BORDER | WS_TABSTOP,7,180,293,80
+    PUSHBUTTON      "Set scroll position",IDC_SET_SCROLL_POSITION,308,7,92,
+                    19
+END
+
+IDD_TEST_ENSURE_VISIBLE DIALOGEX 0, 0, 351, 183
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Ensure visible"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,300,164,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,343,153,
+                    WS_EX_STATICEDGE
+    COMBOBOX        IDC_BEHAVIOR,42,165,95,12,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Behavior:",-1,8,167,31,9
+END
+
+IDD_TEST_COLUMNS DIALOGEX 0, 0, 430, 271
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Columns"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,250,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+END
+
+IDD_TEST_EXPAND DIALOGEX 0, 0, 430, 320
+STYLE DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tree View"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,373,299,50,14
+    CONTROL         "",IDC_REPORT,"XTPReport",WS_TABSTOP,7,7,416,238,
+                    WS_EX_STATICEDGE
+    LTEXT           "Number of records:",IDC_STATIC,7,255,62,8
+    COMBOBOX        IDC_COUNT,73,253,82,55,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Expand all",IDC_EXPAND,172,252,86,14
+    PUSHBUTTON      "Collapse",IDC_COLLAPSE,268,252,87,15
+    LTEXT           "Time:",IDC_STATIC,7,285,47,9
+    LTEXT           "Static",IDC_TIME,73,285,81,11
+    CONTROL         "Expanded notification",IDC_NOTIFICATION_EXPANDED,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,73,269,81,11
+    PUSHBUTTON      "Show indexes",IDC_INDEXES,171,270,87,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 18,5,0,0
+ PRODUCTVERSION 18,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "July 28, 2018\0"
+            VALUE "CompanyName", "Codejock Software\0"
+            VALUE "FileDescription", "ReportSample Demo Application\0"
+            VALUE "FileVersion", "18, 5, 0, 0\0"
+            VALUE "InternalName", "ReportSample.exe\0"
+            VALUE "LegalCopyright", "©1998-2018 Codejock Software, All Rights Reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ReportSample.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "ReportSample Application\0"
+            VALUE "ProductVersion", "18, 5, 0, 0\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO MOVEABLE PURE 
+BEGIN
+    IDD_TREEVIEW_CHILD, DIALOG
+    BEGIN
+        VERTGUIDE, 8
+        HORZGUIDE, 250
+    END
+
+    IDD_TREEVIEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 245
+    END
+
+    IDD_DIALOG_PERFOMANCE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_FORMULA, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 245
+    END
+
+    IDD_CONSTRAINTS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 211
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_EMPTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        VERTGUIDE, 86
+        VERTGUIDE, 180
+        VERTGUIDE, 210
+        VERTGUIDE, 221
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 262
+        HORZGUIDE, 100
+        HORZGUIDE, 110
+        HORZGUIDE, 200
+    END
+
+    IDD_TEST_NOTIFICATIONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 489
+        VERTGUIDE, 350
+        VERTGUIDE, 360
+        VERTGUIDE, 370
+        VERTGUIDE, 476
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 309
+        HORZGUIDE, 281
+    END
+
+    IDD_TEST_POPUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_ALTERNATE_BACKGROUND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 296
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_DRAG_DROP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 279
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_HITTEST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 350
+        VERTGUIDE, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 260
+    END
+
+    IDD_TEST_HEADER_ALIGNMENT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 494
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 307
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_COMBOBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        VERTGUIDE, 150
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 293
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_ITEM_TYPES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 245
+    END
+
+    IDD_FINDRECORD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        VERTGUIDE, 15
+        VERTGUIDE, 65
+        VERTGUIDE, 125
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 105
+        HORZGUIDE, 30
+        HORZGUIDE, 45
+        HORZGUIDE, 60
+        HORZGUIDE, 75
+        HORZGUIDE, 80
+    END
+
+    IDD_TEST_MARKUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        VERTGUIDE, 300
+        VERTGUIDE, 350
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 260
+    END
+
+    IDD_TEST_ENSURE_VISIBLE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 350
+    END
+
+    IDD_TEST_COLUMNS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 264
+        HORZGUIDE, 245
+    END
+
+    IDD_TEST_EXPAND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 423
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 313
+        HORZGUIDE, 245
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_EMPTY DLGINIT
+BEGIN
+    IDC_SCROLLMODE_H, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_SCROLLMODE_H, 0x403, 6, 0
+0x6c42, 0x636f, 0x006b, 
+    IDC_SCROLLMODE_H, 0x403, 7, 0
+0x6d53, 0x6f6f, 0x6874, "\000" 
+    IDC_SCROLLMODE_V, 0x403, 5, 0
+0x6f4e, 0x656e, "\000" 
+    IDC_SCROLLMODE_V, 0x403, 6, 0
+0x6c42, 0x636f, 0x006b, 
+    IDC_SCROLLMODE_V, 0x403, 7, 0
+0x6d53, 0x6f6f, 0x6874, "\000" 
+    0
+END
+
+IDD_TEST_EXPAND DLGINIT
+BEGIN
+    IDC_COUNT, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_COUNT, 0x403, 4, 0
+0x3031, 0x0030, 
+    IDC_COUNT, 0x403, 5, 0
+0x3031, 0x3030, "\000" 
+    IDC_COUNT, 0x403, 5, 0
+0x3532, 0x3030, "\000" 
+    IDC_COUNT, 0x403, 5, 0
+0x3035, 0x3030, "\000" 
+    IDC_COUNT, 0x403, 6, 0
+0x3031, 0x3030, 0x0030, 
+    IDC_COUNT, 0x403, 6, 0
+0x3032, 0x3030, 0x0030, 
+    IDC_COUNT, 0x403, 6, 0
+0x3033, 0x3030, 0x0030, 
+    IDC_COUNT, 0x403, 7, 0
+0x3031, 0x3030, 0x3030, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Codejock Report Control Sample\n\nReport\n\n\nReportSample.Document\nReport Document"
+    IDS_TEXT                "Text"
+    IDS_ICON                "Icon"
+    IDR_TASKLIST            "Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Codejock Report Control Sample"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_PANE_FOLDER         "Folder"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_GROUP_DATE_OLDER    "Date: Older"
+    IDS_GROUP_DATE_THISYEAR "Date: This year"
+    IDS_GROUP_DATE_THISMONTH "Date: This month"
+    IDS_GROUP_DATE_TODAY    "Date: Today"
+    IDS_GROUP_CHECKED_TRUE  "Check State: Checked"
+    IDS_GROUP_CHECKED_FALSE "Check State: Unchecked"
+    IDS_GROUP_IMPOPRTANCE_HIGH "Importance: High"
+    IDS_GROUP_IMPOPRTANCE_NORMAL "Importance: Normal"
+    IDS_GROUP_IMPOPRTANCE_LOW "Importance: Low"
+    IDS_GROUP_ATTACHMENTS_TRUE "Attachments: With Attachments"
+    IDS_GROUP_ATTACHMENTS_FALSE "Attachments: No Attachments"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ARRANGEBY           "Arrange By"
+    IDS_COLUMNS             "Columns"
+    IDS_ALIGNLEFT           "Align Left"
+    IDS_ALIGNRIGHT          "Align Right"
+    IDS_ALIGNCENTER         "Center"
+    IDS_ALIGNMENT           "A&lignment"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_SHOWINGROUPS        "Show in groups"
+    IDS_COLLAPSE            "Collapse"
+    IDS_EXPAND              "Expand"
+    IDS_SORTASC             "Sort &Ascending"
+    IDS_SORTDESC            "Sort Des&cending"
+    IDS_GROUPBYFIELD        "&Group by this field"
+    IDS_GROUPBYBOX          "Group &by box"
+    IDS_REMOVECOL           "&Remove column"
+    IDS_FIELDCHOOSER        "Field &Chooser"
+    IDS_BESTFIT             "Best &Fit"
+    IDS_HIDERECORD          "Hide this record"
+    IDS_SWITCHSTATE         "Switch locked state"
+    IDS_SORT_NO             "&No sort"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_HEADERFOOTER        "HeaderFooter Records Test"
+    IDR_MERGE               "Merge test"
+    IDR_SMOOTHSCROLL        "Smooth Scroll Test"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_THEME_DEFAULT   "Default Theme\nDefault"
+    ID_VIEW_THEME_OFFICEXP  "Office XP Theme\nOffice XP"
+    ID_VIEW_THEME_OFFICE2003 "Office 2003 Theme\nOffice 2003"
+    ID_VIEW_THEME_OFFICE2003LUNA 
+                            "Office 2003 (Luna) Theme\nOffice 2003 (Luna)"
+    ID_VIEW_THEME_OFFICE2007_AQUA "Office 2007 Aqua Theme\nAqua"
+    ID_VIEW_THEME_OFFICE2007_BLACK "Office 2007 Black Theme\nBlack"
+    ID_VIEW_THEME_OFFICE2007_BLUE "Office 2007 Blue Theme\nBlue"
+    ID_VIEW_THEME_OFFICE2007_SILVER "Office 2007 Silver Theme\nSilver"
+    ID_VIEW_THEME_OFFICE2013_ACCESS "Access 2013 Theme\nAccess 2013"
+    ID_VIEW_THEME_OFFICE2013_EXCEL "Excel 2013 Theme\nExcel 2013"
+    ID_VIEW_THEME_OFFICE2013_ONENOTE "One Note 2013 Theme\nOne Note 2013"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_THEME_OFFICE2013_OUTLOOK "Outlook 2013 Theme\nOutlook 2013"
+    ID_VIEW_THEME_OFFICE2013_PUBLISHER "Publisher 2013 Theme\nPublisher 2013"
+    ID_VIEW_THEME_OFFICE2013_POWERPOINT 
+                            "Power Point 2013 Theme\nPower Point 2013"
+    ID_VIEW_THEME_OFFICE2013_WORD "Word 2013 Theme\nWord 2013"
+    ID_VIEW_THEME_EXPLORER  "Windows Explorer Theme\nExplorer"
+    ID_VIEW_THEME_OFFICE2010_BLUE "Office 2010 Blue Theme\nBlue"
+    ID_VIEW_THEME_OFFICE2010_BLACK "Office 2010 Black Theme\nBlack"
+    ID_VIEW_THEME_OFFICE2010_SILVER "Office 2010 Silver Theme\nSilver"
+    ID_VIEW_THEME_VISUALSTUDIO2015_LIGHT 
+                            "Visual Studio 2015 Light Theme\nLight"
+    ID_VIEW_THEME_VISUALSTUDIO2015_DARK "Visual Studio 2015 Dark Theme\nDark"
+    ID_VIEW_THEME_VISUALSTUDIO2015_BLUE "Visual Studio 2015 Blue Theme\nBlue"
+    ID_VIEW_THEME_THEMEDIALOG "Show Theme Dialog\nTheme Dialog"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ReportSample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

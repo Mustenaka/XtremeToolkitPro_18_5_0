@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesignerSample", ".\DesignerSample_vc160.vcxproj", "{25958263-6117-2328-8263-632334141623}"
+EndProject

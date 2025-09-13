@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Animation", "..\..\Samples\Controls\Animation\Animation_vc160.vcxproj", "{78895384-8435-4815-2436-679781453756}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrowseDialog", "..\..\Samples\Controls\BrowseDialog\BrowseDialog_vc160.vcxproj", "{11167842-6974-6418-3911-198826625499}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrowseEdit", "..\..\Samples\Controls\BrowseEdit\BrowseEdit_vc160.vcxproj", "{97956919-3144-5697-3496-761524479957}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Button", "..\..\Samples\Controls\Button\Button_vc160.vcxproj", "{91381983-1798-7297-7725-722595166398}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaptionBar", "..\..\Samples\Controls\CaptionBar\CaptionBar_vc160.vcxproj", "{59243474-8953-7483-1964-926158466454}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CheckListBox", "..\..\Samples\Controls\CheckListBox\CheckListBox_vc160.vcxproj", "{81415133-6512-9186-2539-445184528196}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColorPicker", "..\..\Samples\Controls\ColorPicker\ColorPicker_vc160.vcxproj", "{87394291-3763-8276-1134-116783473754}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Controls", "..\..\Samples\Controls\Controls\Controls_vc160.vcxproj", "{81638273-1426-2876-5453-168773979995}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomizeTree", "..\..\Samples\Controls\CustomizeTree\CustomizeTree_vc160.vcxproj", "{15455827-8572-9968-2194-387536489945}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EditListBox", "..\..\Samples\Controls\EditListBox\EditListBox_vc160.vcxproj", "{71853223-6239-4655-9267-782352521894}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExcelTabDlg", "..\..\Samples\Controls\ExcelTabDlg\ExcelTabDlg_vc160.vcxproj", "{67742381-3481-3854-8662-443151376452}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ExcelTabView", "..\..\Samples\Controls\ExcelTabView\ExcelTabView_vc160.vcxproj", "{61976363-1944-5544-3981-495942973693}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlatCombo", "..\..\Samples\Controls\FlatCombo\FlatCombo_vc160.vcxproj", "{95893117-8299-4647-9632-534894392642}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlatHeader", "..\..\Samples\Controls\FlatHeader\FlatHeader_vc160.vcxproj", "{51291414-6858-7333-7795-128521434591}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontCombo", "..\..\Samples\Controls\FontCombo\FontCombo_vc160.vcxproj", "{57189572-3928-6533-6281-789338389158}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HexEdit", "..\..\Samples\Controls\HexEdit\HexEdit_vc160.vcxproj", "{52435554-1662-9123-1519-642219886399}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HyperLink", "..\..\Samples\Controls\HyperLink\HyperLink_vc160.vcxproj", "{76241298-8728-7315-7361-871163295449}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ListCtrl", "..\..\Samples\Controls\ListCtrl\ListCtrl_vc160.vcxproj", "{42658694-6486-2912-5433-365898337298}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MDITabWindows", "..\..\Samples\Controls\MDITabWindows\MDITabWindows_vc160.vcxproj", "{38537662-3646-1191-4828-136597282756}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarqueeProgress", "..\..\Samples\Controls\MarqueeProgress\MarqueeProgress_vc160.vcxproj", "{32773644-1391-3791-8247-988477889197}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MaskEdit", "..\..\Samples\Controls\MaskEdit\MaskEdit_vc160.vcxproj", "{66688488-8456-2884-5888-217331218156}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PopupControl", "..\..\Samples\Controls\PopupControl\PopupControl_vc160.vcxproj", "{24797836-8327-4897-5374-227134334954}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PropertySheet", "..\..\Samples\Controls\PropertySheet\PropertySheet_vc160.vcxproj", "{11686994-6578-3986-5879-889733279592}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScrollBar", "..\..\Samples\Controls\ScrollBar\ScrollBar_vc160.vcxproj", "{15921977-4132-6686-9298-741623776752}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SearchOptions", "..\..\Samples\Controls\SearchOptions\SearchOptions_vc160.vcxproj", "{49747621-2387-4779-6849-979576295792}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ShortcutList", "..\..\Samples\Controls\ShortcutList\ShortcutList_vc160.vcxproj", "{95145127-8946-8475-4912-464393337651}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SplitterWindow", "..\..\Samples\Controls\SplitterWindow\SplitterWindow_vc160.vcxproj", "{92934185-6196-7665-3497-235911182298}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TabCtrl", "..\..\Samples\Controls\TabCtrl\TabCtrl_vc160.vcxproj", "{95369277-4759-9355-7726-187882789459}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TabbedView", "..\..\Samples\Controls\TabbedView\TabbedView_vc160.vcxproj", "{29185812-1816-8457-4477-316745198599}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TagCloud", "..\..\Samples\Controls\TagCloud\TagCloud_vc160.vcxproj", "{85583227-8564-2144-2549-711561231358}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskbarManager", "..\..\Samples\Controls\TaskbarManager\TaskbarManager_vc160.vcxproj", "{72472375-6734-1343-1935-472279185896}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TipOfTheDay", "..\..\Samples\Controls\TipOfTheDay\TipOfTheDay_vc160.vcxproj", "{75717367-4488-4833-5354-434159682256}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TipWindow", "..\..\Samples\Controls\TipWindow\TipWindow_vc160.vcxproj", "{19533992-1544-2136-2195-653913112296}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrayIconDemo", "..\..\Samples\Controls\TrayIcon\TrayIconDemo_vc160.vcxproj", "{65831418-8292-6722-9278-157748144955}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrayIconDlg", "..\..\Samples\Controls\TrayIconDlg\TrayIconDlg_vc160.vcxproj", "{62729476-6452-5811-8663-728447998693}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TreeCtrl", "..\..\Samples\Controls\TreeCtrl\TreeCtrl_vc160.vcxproj", "{55155558-4916-7511-3982-771327685854}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VistaTaskDialog", "..\..\Samples\Controls\VistaTaskDialog\VistaTaskDialog_vc160.vcxproj", "{89871293-1262-6694-9633-999271915894}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinExplorer", "..\..\Samples\Controls\WinExplorer\WinExplorer_vc160.vcxproj", "{55388598-8829-9391-7796-494917147753}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowPos", "..\..\Samples\Controls\WindowPos\WindowPos_vc160.vcxproj", "{42267666-6171-8589-6291-165615892391}"
+EndProject

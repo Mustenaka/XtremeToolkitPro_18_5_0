@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{acd8f8ad-9831-44dc-abc7-726dcf09fb51}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97add950-43b2-4aa3-940f-ce204c82aeab}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{f47418f8-e419-4dd5-8878-fea17a990ec5}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{2c4f9592-4fe8-47bd-94b5-d689132e81b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{de07152e-7238-4511-8a40-1f6f5cfac84b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EmptyDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FormulaDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HeaderFooterView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MonthCalCtrlEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfomanceTestDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportMultilinePaintManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportSampleDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReportSampleView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectionView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothScrollView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeEditDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TreeViewDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintsDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestAlternateBackgroundDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestColumnsDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComboBoxDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDragDropDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEnsureVisibleDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestExpandDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHeaderAlignmentDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestHitTestDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestItemTypesDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMarkupDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestNotificationsDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPaintManager.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TestPopupDlg.cpp">
+      <Filter>Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FolderView.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FormulaDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFooterView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MonthCalCtrlEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfomanceTestDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportMultilinePaintManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportSampleDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReportSampleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothScrollView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeEditDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TreeViewDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintsDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="EmptyDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestAlternateBackgroundDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestColumnsDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComboBoxDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDragDropDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEnsureVisibleDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestExpandDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHeaderAlignmentDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestHitTestDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestItemTypesDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMarkupDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestNotificationsDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPaintManager.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TestPopupDlg.h">
+      <Filter>Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ReportSample.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bmreport2013_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport2013_20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport2013_24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport2013_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_blue_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_blue_20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_blue_24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_blue_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_dark_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_dark_20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_dark_24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_dark_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_light_16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_light_20.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_light_24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmreport_vs2015_light_32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\codejockgear.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ReportSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ReportSample.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ReportSampleDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarOffice2013\Toolbar2013_16.png" />
+    <None Include="res\ToolbarOffice2013\Toolbar2013_24.png" />
+    <None Include="res\ToolbarOffice2013\Toolbar2013_32.png" />
+    <None Include="res\ToolbarOffice2013\Toolbar2013_40.png" />
+    <None Include="res\ToolbarOffice2013\Toolbar2013_48.png" />
+    <None Include="res\ToolbarOffice2013\Toolbar2013_64.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_16.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_24.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_32.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_40.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_48.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarBlue_64.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_16.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_24.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_32.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_40.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_48.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarDark_64.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_16.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_24.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_32.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_40.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_48.png" />
+    <None Include="res\ToolbarVisualStudio2015\ToolbarLight_64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Office2007.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2007.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Office2010.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2010.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2013.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2016.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\SkinFramework\Styles\Vista.cjstyles">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2015.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

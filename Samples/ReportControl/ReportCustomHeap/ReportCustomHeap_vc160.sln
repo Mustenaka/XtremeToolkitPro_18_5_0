@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportCustomHeap", ".\ReportCustomHeap_vc160.vcxproj", "{23986875-8681-7247-4363-686122297383}"
+EndProject

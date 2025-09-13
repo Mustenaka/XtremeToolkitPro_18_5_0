@@ -1,0 +1,40 @@
+// ResourceImport.h
+//
+// (c)1998-2018 Codejock Software, All Rights Reserved.
+//
+// THIS SOURCE FILE IS THE PROPERTY OF CODEJOCK SOFTWARE AND IS NOT TO BE
+// RE-DISTRIBUTED BY ANY MEANS WHATSOEVER WITHOUT THE EXPRESSED WRITTEN
+// CONSENT OF CODEJOCK SOFTWARE.
+//
+// THIS SOURCE CODE CAN ONLY BE USED UNDER THE TERMS AND CONDITIONS OUTLINED
+// IN THE XTREME TOOLKIT PRO LICENSE AGREEMENT. CODEJOCK SOFTWARE GRANTS TO
+// YOU (ONE SOFTWARE DEVELOPER) THE LIMITED RIGHT TO USE THIS SOFTWARE ON A
+// SINGLE COMPUTER.
+//
+// CONTACT INFORMATION:
+// support@codejock.com
+// http://www.codejock.com
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_RESOURCEIMPORT_H__9089E5BD_7F26_4649_AD8C_0007D8A6AECE__INCLUDED_)
+#define AFX_RESOURCEIMPORT_H__9089E5BD_7F26_4649_AD8C_0007D8A6AECE__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+class CResourceImport  
+{
+public:
+	CResourceImport();
+	virtual ~CResourceImport();
+
+	BOOL Import(LPCTSTR lpszInput);
+
+public:
+	CXTPPropExchangeXMLNode* m_pResources;
+	BOOL m_bDelete;
+};
+
+#endif // !defined(AFX_RESOURCEIMPORT_H__9089E5BD_7F26_4649_AD8C_0007D8A6AECE__INCLUDED_)

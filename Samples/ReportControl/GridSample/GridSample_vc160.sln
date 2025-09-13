@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportSample", ".\GridSample_vc160.vcxproj", "{43898733-4159-4482-9181-314164949252}"
+EndProject

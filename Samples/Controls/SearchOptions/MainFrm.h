@@ -1,0 +1,116 @@
+// MainFrm.h 
+//
+// (c)1998-2018 Codejock Software, All Rights Reserved.
+//
+// THIS SOURCE FILE IS THE PROPERTY OF CODEJOCK SOFTWARE AND IS NOT TO BE
+// RE-DISTRIBUTED BY ANY MEANS WHATSOEVER WITHOUT THE EXPRESSED WRITTEN
+// CONSENT OF CODEJOCK SOFTWARE.
+//
+// THIS SOURCE CODE CAN ONLY BE USED UNDER THE TERMS AND CONDITIONS OUTLINED
+// IN THE XTREME TOOLKIT PRO LICENSE AGREEMENT. CODEJOCK SOFTWARE GRANTS TO
+// YOU (ONE SOFTWARE DEVELOPER) THE LIMITED RIGHT TO USE THIS SOFTWARE ON A
+// SINGLE COMPUTER.
+//
+// CONTACT INFORMATION:
+// support@codejock.com
+// http://www.codejock.com
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#if !defined(AFX_MAINFRM_H__B5CB55FF_C0FB_47A3_9B71_22E9C44D46AE__INCLUDED_)
+#define AFX_MAINFRM_H__B5CB55FF_C0FB_47A3_9B71_22E9C44D46AE__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+class CSearchOptionsView;
+class CSearchOptionsPane;
+
+#ifdef _XTP_INCLUDE_COMMANDBARS
+#define CMainFrameBase CXTPFrameWnd
+#else
+#ifdef _XTP_INCLUDE_CONTROLBARS
+#define CMainFrameBase CXTFrameWnd
+#else
+#define CMainFrameBase CFrameWnd
+#define CXTStatusBar   CStatusBar
+#define CXTToolBar     CToolBar
+#endif
+#endif
+
+class CMainFrame : public CMainFrameBase
+{
+
+protected: // create from serialization only
+	CMainFrame();
+	DECLARE_DYNCREATE(CMainFrame)
+
+// Attributes
+public:
+
+// Operations
+public:
+
+	inline CXTPSplitterWnd& GetSplitterWnd() {
+		return m_wndSplitter;
+	}
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CMainFrame)
+	public:
+	virtual BOOL OnCreateClient(LPCREATESTRUCT lpcs, CCreateContext* pContext);
+	virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	void ToggleSearchPane();
+	virtual ~CMainFrame();
+	CSearchOptionsView* GetRightPane();
+#ifdef _DEBUG
+	virtual void AssertValid() const;
+	virtual void Dump(CDumpContext& dc) const;
+#endif
+
+protected:  // control bar embedded members
+	void SetTheme(int iTheme);
+
+	CXTPSplitterWndEx m_wndSplitter;
+
+#ifdef _XTP_INCLUDE_COMMANDBARS
+	CXTPStatusBar   m_wndStatusBar;
+#else
+	CXTStatusBar   m_wndStatusBar;
+	CXTToolBar     m_wndToolBar;
+#endif
+	CXTPRegistryManager m_regMgr;
+	int            m_iTheme;
+	bool             m_bSearchHidden;
+
+	CSearchOptionsPane* m_pSearchOptionsPane;
+	CSearchOptionsView* m_pSearchOptionsView;
+
+// Generated message map functions
+protected:
+	//{{AFX_MSG(CMainFrame)
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnToggleSearch();
+	afx_msg void OnUpdateToggleSearch(CCmdUI* pCmdUI);
+	afx_msg void OnViewThemeOfficeXP();
+	afx_msg void OnUpdateViewThemeOfficeXP(CCmdUI* pCmdUI);
+	afx_msg void OnClose();
+	//}}AFX_MSG
+	afx_msg void OnCustomize();
+	afx_msg void OnUpdateViewStyles(CCmdUI* pCmdUI);
+	afx_msg void OnViewStyle(UINT nCommandID);
+	DECLARE_MESSAGE_MAP()
+};
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_MAINFRM_H__B5CB55FF_C0FB_47A3_9B71_22E9C44D46AE__INCLUDED_)

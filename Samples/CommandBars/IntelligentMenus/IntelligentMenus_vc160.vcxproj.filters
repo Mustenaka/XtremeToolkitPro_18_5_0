@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{972f0189-08d3-4af6-b86c-1a9628495394}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{84fa7bce-2948-4a94-b7f2-93e4f6e3972d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{ba321e41-781c-4645-a77b-41040676cc92}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="IntelligentMenus.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelligentMenusDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IntelligentMenusView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernTheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IntelligentMenus.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntelligentMenus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelligentMenusDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelligentMenusView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ModernTheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOT_LARGE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOT_LARGE_ALPHA.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOT_SMALL.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\HOT_SMALL_ALPHA.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IntelligentMenus.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IntelligentMenus.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\IntelligentMenusDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NORMAL_LARGE.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NORMAL_LARGE_ALPHA.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NORMAL_SMALL.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\NORMAL_SMALL_ALPHA.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

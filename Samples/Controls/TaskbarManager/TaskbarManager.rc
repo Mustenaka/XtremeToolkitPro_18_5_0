@@ -1,0 +1,263 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "Resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "Resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\TaskbarManager.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CJSample.ico"
+IDC_BUTTON_INFO         ICON    DISCARDABLE     "res\\infoIcon.ico"
+IDC_BUTTON_NOVOLUME     ICON    DISCARDABLE     "res\\noVolume.ico"
+IDC_BUTTON_QUESTION     ICON    DISCARDABLE     "res\\questionIcon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_PAGE_OVERLAY_ICONS DIALOG DISCARDABLE  0, 0, 278, 155
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Overlay Icons"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Question",IDC_BUTTON_QUESTION,113,7,98,37
+    PUSHBUTTON      "Info",IDC_BUTTON_INFO,7,7,98,37
+    PUSHBUTTON      "No Volume",IDC_BUTTON_NOVOLUME,7,52,98,37
+    PUSHBUTTON      "No Overlay Icon",IDC_BUTTON_NOICON,113,52,98,37
+    LTEXT           "Select one of the icons above to set it as an overlay on the Taskbar application button.",
+                    IDC_STATIC,7,100,202,29
+END
+
+IDD_PAGE_PROGRESS_BAR DIALOG DISCARDABLE  0, 0, 278, 155
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Progress Bar"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Move the slider to update the progress overlay on the Taskbar application button. Update the Status to change the style of the progress overlay.",
+                    IDC_STATIC,7,71,230,29
+    LTEXT           "Progress Status:",IDC_STATIC,7,14,57,12
+    COMBOBOX        IDC_COMBO_STATUS,70,12,201,71,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Slider1",IDC_SLIDER_PROGRESS,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_BOTH | WS_TABSTOP,7,36,264,25
+END
+
+IDD_PAGE_JUMP_LIST DIALOG DISCARDABLE  0, 0, 278, 155
+STYLE DS_MODALFRAME | WS_CHILD | WS_CAPTION
+CAPTION "Jump List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_TASK,7,7,264,85,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Commit",IDC_BUTTON_COMMIT,221,134,50,14
+    RTEXT           "&Path:",IDC_STATIC,7,97,21,8
+    RTEXT           "&Title:",IDC_STATIC,7,112,21,8
+    EDITTEXT        IDC_EDIT_PATH,35,94,236,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TITLE,35,110,236,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 18,5,0,0
+ PRODUCTVERSION 18,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Codejock Software\0"
+            VALUE "FileDescription", "TaskbarManager MFC Application\0"
+            VALUE "FileVersion", "18, 5, 0, 0\0"
+            VALUE "InternalName", "TaskbarManager\0"
+            VALUE "LegalCopyright", "©1998-2018 Codejock Software, All Rights Reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "TaskbarManager.EXE\0"
+            VALUE "ProductName", "TaskbarManager Application\0"
+            VALUE "ProductVersion", "18, 5, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_PAGE_OVERLAY_ICONS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_PAGE_PROGRESS_BAR, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+
+    IDD_PAGE_JUMP_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        VERTGUIDE, 28
+        VERTGUIDE, 35
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 148
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PAGE_PROGRESS_BAR DLGINIT
+BEGIN
+    IDC_COMBO_STATUS, 0x403, 7, 0
+0x6f4e, 0x6d72, 0x6c61, "\000" 
+    IDC_COMBO_STATUS, 0x403, 6, 0
+0x7245, 0x6f72, 0x0072, 
+    IDC_COMBO_STATUS, 0x403, 7, 0
+0x6150, 0x7375, 0x6465, "\000" 
+    IDC_COMBO_STATUS, 0x403, 14, 0
+0x6e49, 0x6564, 0x6574, 0x6d72, 0x6e69, 0x7461, 0x0065, 
+    IDC_COMBO_STATUS, 0x403, 12, 0
+0x6f4e, 0x5020, 0x6f72, 0x7267, 0x7365, 0x0073, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About TaskbarManager..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Codejock Taskbar Manager Sample"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\TaskbarManager.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

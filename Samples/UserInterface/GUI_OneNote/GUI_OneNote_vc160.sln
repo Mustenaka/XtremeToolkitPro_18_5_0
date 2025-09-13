@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI_OneNote", ".\GUI_OneNote_vc160.vcxproj", "{12791848-9581-2951-6913-385522793381}"
+EndProject

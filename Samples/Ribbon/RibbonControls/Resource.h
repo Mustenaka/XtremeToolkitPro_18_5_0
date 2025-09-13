@@ -1,0 +1,130 @@
+//{{NO_DEPENDENCIES}}
+// Microsoft Developer Studio generated include file.
+// Used by RibbonControls.rc
+//
+#define IDR_MANIFEST                    1
+#define IDD_ABOUTBOX                    100
+#define IDR_MAINFRAME                   128
+#define IDR_RIBBONTYPE                  129
+#define ID_MENU_FILE                    130
+#define ID_TAB_BUTTONS                  131
+#define ID_STYLES_QUICKSTYLES           131
+#define ID_GROUP_LARGEBUTTONS           132
+#define ID_BUTTON_LARGESIMPLEBUTTON     133
+#define ID_BUTTON_LARGETOGGLEBUTTON     134
+#define ID_BUTTON_LARGEPOPUPBUTTON      135
+#define ID_BUTTON_LARGESPLITPOPUPBUTTON 136
+#define ID_GROUP_SMALLBUTTONS           137
+#define ID_BUTTON_SMALLSIMPLEBUTTON     138
+#define ID_BUTTON_SMALLPOPUPBUTTON      139
+#define ID_BUTTON_SMALLSPLITPOPUPBUTTON 140
+#define ID_GROUP_CHECKBOXES             141
+#define ID_BUTTON_CHECKBOX1             142
+#define ID_BUTTON_CHECKBOX2             143
+#define ID_BUTTON_CHECKBOX3             144
+#define ID_BUTTON_RADIOBUTTON1          145
+#define ID_BUTTON_RADIOBUTTON2          146
+#define ID_BUTTON_RADIOBUTTON3          147
+#define ID_TAB_EDITORS                  148
+#define ID_GROUP_STANDARDEDITORS        149
+#define ID_EDITOR_EDIT                  150
+#define ID_EDITOR_COMBO                 151
+#define ID_EDITOR_COMBO2                152
+#define ID_GROUP_EXTENDEDEDITORS        153
+#define ID_EDITOR_EXTENDEDEDIT          154
+#define ID_EDITOR_EXTENDEDCOMBO         155
+#define IDR_MENU_OPTIONS                156
+#define ID_TAB_GROUPS                   157
+#define ID_GROUP_GROUP                  158
+#define ID_GROUP_SIMPLE                 159
+#define ID_GROUP_EXTENDED               160
+#define ID_GROUP_GALLERY                161
+#define ID_GALLERY_FONTFACE             162
+#define ID_EDITOR_POPUP                 163
+#define ID_TAB_GALLERIES                164
+#define ID_TAB_MISC                     165
+#define ID_GROUP_INLINE                 166
+#define ID_GALLERY_STYLES               167
+#define ID_GROUP_POPUP                  168
+#define ID_GALLERY_TABLE                169
+#define ID_GALLERY_COLOR                170
+#define ID_GALLERY_UNDO                 171
+#define ID_GROUP_LABEL                  172
+#define ID_GROUP_PROGRESS               173
+#define ID_BUTTON_TESTPROGRESS          174
+#define ID_GROUP_SLIDER                 175
+#define ID_GROUP_SCROLLBAR              176
+#define ID_GROUP_BITMAP                 177
+#define ID_BUTTON_BITMAP                178
+#define ID_GROUP_HYPERLINK              179
+#define ID_BUTTON_URLLINK               180
+#define ID_BUTTON_EMAILLINK             181
+#define ID_LARGEICONS_16 				182
+#define ID_LARGEICONS_24 				183
+#define ID_LARGEICONS_32 				184
+#define ID_LARGEICONS_40 				185
+#define ID_LARGEICONS_48 				186
+#define ID_LARGEICONS_56 				187
+#define ID_LARGEICONS_64 				188
+#define ID_LARGEICONS_72 				189
+#define ID_LARGEICONS_96 				190
+#define ID_LARGEICONS_128				191
+#define ID_LARGEICONS_168				192
+#define ID_LARGEICONS_216				193
+#define ID_LARGEICONS_256				194
+#define ID_SMALLICONS_16 				195
+#define ID_SMALLICONS_24 				196
+#define ID_SMALLICONS_32 				197
+#define ID_SMALLICONS_40 				198
+#define ID_SMALLICONS_48 				199
+
+#define IDB_GEAR                        300
+#define ID_VIEW_NORMAL                  600
+#define ID_VIEW_FULLSCREEN              601
+#define ID_WINDOW_SWITCH                602
+#define ID_OPTIONS_STYLEBLUE            5840
+#define ID_OPTIONS_STYLEBLACK           5841
+#define ID_OPTIONS_STYLESILVER          5842
+#define ID_OPTIONS_STYLEAQUA            5843
+#define ID_POPUP_OPTION1                32771
+#define ID_POPUP_OPTION2                32772
+#define ID_POPUP_OPTION3                32773
+#define ID_QUICKSTYLES_SAVESTYLE        32777
+#define ID_QUICKSTYLES_APPLYSTYLE       32778
+#define ID_OPTIONS_RIGHTTOLEFT          32839
+#define ID_FILE_RECENTDOCUMENTS         32876
+#define ID_APP_CLOSE                    32879
+#define ID_APP_OPTIONS                  32880
+#define ID_OPTIONS_FONT_SYSTEM          32779
+#define ID_OPTIONS_FONT_NORMAL          32780
+#define ID_OPTIONS_FONT_LARGE           32781
+#define ID_OPTIONS_FONT_EXTRALARGE      32782
+#define ID_OPTIONS_FONT_AUTORESIZEICONS 32783
+#define ID_OPTIONS_DPI_ICON_SCALING     32784
+#define ID_OPTIONS_STYLE_OFFICE2007BLUE 32900
+#define ID_OPTIONS_STYLE_OFFICE2007SILVER 32901
+#define ID_OPTIONS_STYLE_OFFICE2007BLACK 32902
+#define ID_OPTIONS_STYLE_OFFICE2007AQUA 32903
+#define ID_OPTIONS_STYLE_OFFICE2007SYSTEM 32904
+#define ID_OPTIONS_STYLE_OFFICE2010BLUE 32905
+#define ID_OPTIONS_STYLE_OFFICE2010SILVER 32906
+#define ID_OPTIONS_STYLE_OFFICE2010BLACK 32907
+#define ID_OPTIONS_STYLE_OFFICE2013WORD 32908
+#define ID_OPTIONS_STYLE_OFFICE2013EXCEL 32909
+#define ID_OPTIONS_STYLE_OFFICE2013ACCESS 32910
+#define ID_OPTIONS_STYLE_OFFICE2013POWERPOINT 32911
+#define ID_OPTIONS_STYLE_OFFICE2013ONENOTE 32912
+#define ID_OPTIONS_STYLE_WINDOWS7SCENIC 32913
+#define ID_OPTIONS_STYLE_WINDOWS8SCENIC 32915
+
+// Next default values for new objects
+// 
+#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_READONLY_SYMBOLS
+#define _APS_3D_CONTROLS                     1
+#define _APS_NEXT_RESOURCE_VALUE        183
+#define _APS_NEXT_COMMAND_VALUE         32916
+#define _APS_NEXT_CONTROL_VALUE         1000
+#define _APS_NEXT_SYMED_VALUE           101
+#endif
+#endif

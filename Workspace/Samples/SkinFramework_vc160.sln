@@ -1,0 +1,12 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinCommCtrl", "..\..\Samples\SkinFramework\SkinCommCtrl\SkinCommCtrl_vc160.vcxproj", "{73815885-1145-5888-8399-183311677627}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinControls", "..\..\Samples\SkinFramework\SkinControls\SkinControls_vc160.vcxproj", "{76149867-8688-8588-3628-145281264868}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinMDISample", "..\..\Samples\SkinFramework\SkinMDISample\SkinMDISample_vc160.vcxproj", "{35192358-5853-8774-5867-359735564134}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinOGLSample", "..\..\Samples\SkinFramework\SkinOGLSample\SkinOGLSample_vc160.vcxproj", "{66364917-3413-1378-6442-768869625766}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SkinSDISample", "..\..\Samples\SkinFramework\SkinSDISample\SkinSDISample_vc160.vcxproj", "{53253975-1663-9567-6837-439578579324}"
+EndProject

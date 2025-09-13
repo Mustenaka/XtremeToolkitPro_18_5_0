@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CustomDrawReport", "..\..\Samples\ReportControl\ReportCustomDraw\CustomDrawReport_vc160.vcxproj", "{79333915-9646-2843-2616-991617146335}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GridSample", "..\..\Samples\ReportControl\GridSample\GridSample_vc160.vcxproj", "{35739311-7394-6548-9779-495444278283}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportAddRecordEx", "..\..\Samples\ReportControl\ReportAddRecordEx\ReportAddRecordEx_vc160.vcxproj", "{32629478-4554-5737-9264-166142933731}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportCustomHeap", "..\..\Samples\ReportControl\ReportCustomHeap\ReportCustomHeap_vc160.vcxproj", "{35854451-2118-7337-4583-128123639982}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportDataBinding", "..\..\Samples\ReportControl\ReportDataBinding\ReportDataBinding_vc160.vcxproj", "{59771195-9264-6521-9344-246876949932}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportDataBinding2", "..\..\Samples\ReportControl\ReportDataBinding2\ReportDataBinding2_vc160.vcxproj", "{25178592-7922-9227-7317-642612171881}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportDialog", "..\..\Samples\ReportControl\ReportDialog\ReportDialog_vc160.vcxproj", "{12967569-4173-8316-7893-493411936438}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportItemControls", "..\..\Samples\ReportControl\ReportItemControls\ReportItemControls_vc160.vcxproj", "{16392642-2736-2996-2222-355381533689}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportSample", "..\..\Samples\ReportControl\ReportSample\ReportSample_vc160.vcxproj", "{41128386-9882-9198-7863-583244952739}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TrackControl", "..\..\Samples\ReportControl\TrackControl\TrackControl_vc160.vcxproj", "{96526692-7541-4785-5945-978879184588}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VirtualList", "..\..\Samples\ReportControl\VirtualList\VirtualList_vc160.vcxproj", "{93415759-4711-3984-5431-649678849135}"
+EndProject

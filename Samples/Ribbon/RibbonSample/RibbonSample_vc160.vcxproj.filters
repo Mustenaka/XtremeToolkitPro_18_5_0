@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8474a5be-1e3a-456d-9d6d-6426f0945261}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d1e3372a-87d4-45a3-9542-9519b6f36468}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{2619632c-f2bf-4d03-9fbe-8002ca4ece80}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{5496750f-7653-4032-8df4-c1fa7db3e688}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackstagePageHelp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackstagePageInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackstagePageSave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackstagePageSaveEmail.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackstagePageSaveWeb.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CntrItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizePageGeneral.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizePageQuickAccessToolbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomizePageRibbon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GalleryItems.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneColorSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneStyles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonSample.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonSampleDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RibbonSampleView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollRichEditView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkspaceView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RibbonSample.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackstagePageHelp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackstagePageInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackstagePageSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackstagePageSaveEmail.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackstagePageSaveWeb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CntrItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizePageGeneral.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizePageQuickAccessToolbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomizePageRibbon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GalleryItems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneColorSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneStyles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonSample.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonSampleDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RibbonSampleView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollRichEditView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorkspaceView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BitmapChart.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BitmapGraphic.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BitmapPicture.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BitmapTable.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CJSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Feedback.rtf">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GalleryColumns.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GalleryShapes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GalleryStyles.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupCaptions.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupClipboard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupDocumentViews.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupFind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupFont.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupFootnotes.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupIcons.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupIndex.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupOptionToolTip.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupPageParagraph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupParagraph.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupPopup.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupStyles.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupTableOfContents.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupWindow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GroupZoom.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Image8.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\InsertTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\largeico.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LargeIcons.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LayoutTab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LayoutTabLarge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\office2013_16x16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\office2013_32x32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\office2013_backstage_32x32.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\office2013_shield_24x24.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\office2013_status_16x16.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonSample.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\RibbonSampleDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ScreenPreview.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\shiny-gear.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SmallIcons.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\StatusBarViewSwitches.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\SystemMenuLarge.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TabPageLayout.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TabReferences.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\TabView.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Warning.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\BackstageIcons.png" />
+    <None Include="res\ButtonDropDownGlyph.png" />
+    <None Include="res\CheckForIssues.png" />
+    <None Include="res\GalleryStylesDark.png" />
+    <None Include="res\GroupFontDark.png" />
+    <None Include="res\GroupParagraphDark.png" />
+    <None Include="res\IndicatorMacroRecording.png" />
+    <None Include="res\ManageVersions.png" />
+    <None Include="res\office2013\office2013_16.png" />
+    <None Include="res\office2013\office2013_24.png" />
+    <None Include="res\office2013\office2013_32.png" />
+    <None Include="res\office2013\office2013_40.png" />
+    <None Include="res\office2013\office2013_48.png" />
+    <None Include="res\office2013\office2013_64.png" />
+    <None Include="res\OptionsIconGeneral.png" />
+    <None Include="res\OptionsIconQuickAccess.png" />
+    <None Include="res\PageHelpIcons.png" />
+    <None Include="res\PageSaveIcons.png" />
+    <None Include="res\Print.png" />
+    <None Include="res\ProtectDocument.png" />
+    <None Include="res\RibbonMinimize.png" />
+    <None Include="res\StylesManageStyles.png" />
+    <None Include="res\StylesPaneNewStyle.png" />
+    <None Include="res\StylesStyleInspector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2007.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2010.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2013.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Office2016.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2015.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\Windows7.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

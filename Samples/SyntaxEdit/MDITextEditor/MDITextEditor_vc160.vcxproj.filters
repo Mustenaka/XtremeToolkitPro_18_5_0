@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{616d524c-a95b-49f9-b841-2a57c1479c20}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6886522a-945c-4e4f-89de-58ed125f2d82}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{71b8f9c4-9c3a-496c-9b5d-3d9290e00d70}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="EditConfig">
+      <UniqueIdentifier>{e1b8f68a-4b74-4ca4-aff9-149b12d2002d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Schemas">
+      <UniqueIdentifier>{e4ba7841-95ce-40a6-8e8b-758c2df3fc5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Themes">
+      <UniqueIdentifier>{428c21b6-da04-4689-93fe-bbb50d37960f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDITextEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDITextEditorDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MDITextEditorView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MDITextEditor.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDITextEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDITextEditorDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MDITextEditorView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MDITextEditor.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MDITextEditor.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MDITextEditorDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Config\SyntaxEdit.ini">
+      <Filter>EditConfig</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cpp.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_HTML_ASP.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_ini.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_JScript.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_LUA.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_nsi.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_pascal.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_schclass.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_sql.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_VBNet.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_VBScript.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema0.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema1.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReportDataBinding2", ".\ReportDataBinding2_vc160.vcxproj", "{48793379-2979-1783-3871-734835128911}"
+EndProject

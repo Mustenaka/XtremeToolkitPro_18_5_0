@@ -1,0 +1,6 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskPanel", "..\..\Samples\TaskPanel\TaskPanel\TaskPanel_vc160.vcxproj", "{26845297-2452-1789-4639-872365522294}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ToolBox", "..\..\Samples\TaskPanel\ToolBox\ToolBox_vc160.vcxproj", "{13734265-8622-9979-4124-633174467752}"
+EndProject

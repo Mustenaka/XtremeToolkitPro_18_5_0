@@ -1,0 +1,4 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 16
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MultiLanguage", ".\MultiLanguage_vc160.vcxproj", "{55918317-7232-3215-7387-677514619421}"
+EndProject

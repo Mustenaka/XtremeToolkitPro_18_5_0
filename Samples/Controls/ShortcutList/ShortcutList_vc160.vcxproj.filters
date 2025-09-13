@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0c8fc145-7e85-4843-95bf-11cd65cf5caa}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{42ae7e59-0078-4195-90df-98b93d5f3f31}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{56b0d0a4-699c-41dc-85b6-d4582572fd09}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutListBoxView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutListDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortcutListView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ShortcutList.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\AboutDlg\AboutDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutListBoxView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutListDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortcutListView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Calendar.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cj_logo.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Contacts.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Deleted.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Drafts.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\il_tab.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Inbox.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Journal.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Notes.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Outbox.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Outlook.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Public.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Sent.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ShortcutList.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ShortcutList.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ShortcutListDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Tasks.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

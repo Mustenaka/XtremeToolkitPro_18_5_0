@@ -1,0 +1,252 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ColorPicker.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\CjSample.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_COLORPICKER_DIALOG DIALOGEX 0, 0, 222, 222
+STYLE WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Codejock Color Picker Sample"
+FONT 8, "MS Sans Serif"
+BEGIN
+    RTEXT           "&Text Color:",IDC_TXT_TEXT,14,10,38,8
+    PUSHBUTTON      "Text",IDC_CLR_TEXT,58,7,50,14
+    RTEXT           "B&ack Color:",IDC_TXT_BACK,14,25,38,8
+    PUSHBUTTON      "Back",IDC_CLR_BACK,58,23,50,14
+    CTEXT           "Sample Text Color",IDC_COLOR_STATIC,114,7,101,30,
+                    SS_CENTERIMAGE,WS_EX_STATICEDGE
+    LTEXT           "Style:",IDC_STATIC,7,44,18,8
+    COMBOBOX        IDC_COMBO_STYLE,7,55,101,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Theme:",IDC_STATIC,114,44,25,8
+    COMBOBOX        IDC_COMBO_THEME,114,55,101,80,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Color Popup Window: ",IDC_GBOX_POPUP,7,72,101,62
+    CONTROL         "Show &Captions",IDC_CHK_CAPTIONS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,86,83,10
+    CONTROL         "Show ""&No Fill""",IDC_CHK_NOFILL,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,96,83,10
+    CONTROL         "Show ""&More Colors""",IDC_CHK_MORECOLORS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,106,83,10
+    CONTROL         "&Recent Colors",IDC_CHECK_RECENT,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,116,83,10
+    GROUPBOX        "Color Picker Button:  ",IDC_GBOX_BUTTON,114,72,101,62
+    CONTROL         "&Disable",IDC_CHK_DISABLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,124,86,83,10
+    CONTROL         "&Show Text",IDC_CHK_NOTEXT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,124,96,83,10
+    CONTROL         "Te&xt In Color",IDC_CHK_COLORTEXT,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,124,106,83,10
+    GROUPBOX        "More Colors Dialog:  ",IDC_GBOX_DIALOG,7,138,208,56
+    CONTROL         "3D &Border Around Color Selection",IDC_CHK_3DBORDER,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,15,154,192,10
+    CONTROL         "Display &Hex Values",IDC_CHK_DISPLAY_HEX,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,164,192,10
+    CONTROL         "&Eye Dropper Color Selector",IDC_CHK_EYEDROPPER,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,174,192,10
+    PUSHBUTTON      "D&one",IDCANCEL,165,201,50,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 18,5,0,0
+ PRODUCTVERSION 18,5,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "Codejock Software\0"
+            VALUE "FileDescription", "ColorPicker MFC Application\0"
+            VALUE "FileVersion", "18, 5, 0, 0\0"
+            VALUE "InternalName", "ColorPicker\0"
+            VALUE "LegalCopyright", "©1998-2018 Codejock Software, All Rights Reserved.\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ColorPicker.EXE\0"
+            VALUE "ProductName", "ColorPicker Application\0"
+            VALUE "ProductVersion", "18, 5, 0, 0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_COLORPICKER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+        HORZGUIDE, 37
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_COLORPICKER_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO_STYLE, 0x403, 21, 0
+0x7453, 0x6e61, 0x6164, 0x6472, 0x2820, 0x3631, 0x4320, 0x6c6f, 0x726f, 
+0x2973, "\000" 
+    IDC_COMBO_STYLE, 0x403, 21, 0
+0x7845, 0x6574, 0x646e, 0x6465, 0x2820, 0x3034, 0x4320, 0x6c6f, 0x726f, 
+0x2973, "\000" 
+    IDC_COMBO_STYLE, 0x403, 20, 0
+0x7543, 0x7473, 0x6d6f, 0x5420, 0x6568, 0x656d, 0x4320, 0x6c6f, 0x726f, 
+0x0073, 
+    IDC_COMBO_STYLE, 0x403, 21, 0
+0x6544, 0x6166, 0x6c75, 0x2074, 0x6854, 0x6d65, 0x2065, 0x6f43, 0x6f6c, 
+0x7372, "\000" 
+    IDC_COMBO_THEME, 0x403, 8, 0
+0x6544, 0x6166, 0x6c75, 0x0074, 
+    IDC_COMBO_THEME, 0x403, 10, 0
+0x664f, 0x6966, 0x6563, 0x5820, 0x0050, 
+    IDC_COMBO_THEME, 0x403, 12, 0
+0x664f, 0x6966, 0x6563, 0x3220, 0x3130, 0x0033, 
+    IDC_COMBO_THEME, 0x403, 19, 0
+0x6956, 0x7573, 0x6c61, 0x5320, 0x7574, 0x6964, 0x206f, 0x3032, 0x3531, 
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Color Picker Sample..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ColorPicker.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

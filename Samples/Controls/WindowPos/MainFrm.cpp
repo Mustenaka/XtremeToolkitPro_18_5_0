@@ -1,0 +1,276 @@
+// MainFrm.cpp 
+//
+// (c)1998-2018 Codejock Software, All Rights Reserved.
+//
+// THIS SOURCE FILE IS THE PROPERTY OF CODEJOCK SOFTWARE AND IS NOT TO BE
+// RE-DISTRIBUTED BY ANY MEANS WHATSOEVER WITHOUT THE EXPRESSED WRITTEN
+// CONSENT OF CODEJOCK SOFTWARE.
+//
+// THIS SOURCE CODE CAN ONLY BE USED UNDER THE TERMS AND CONDITIONS OUTLINED
+// IN THE XTREME TOOLKIT PRO LICENSE AGREEMENT. CODEJOCK SOFTWARE GRANTS TO
+// YOU (ONE SOFTWARE DEVELOPER) THE LIMITED RIGHT TO USE THIS SOFTWARE ON A
+// SINGLE COMPUTER.
+//
+// CONTACT INFORMATION:
+// support@codejock.com
+// http://www.codejock.com
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "WindowPos.h"
+
+#include "MainFrm.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CMainFrame
+
+IMPLEMENT_DYNAMIC(CMainFrame, CMDIFrameWnd)
+
+BEGIN_MESSAGE_MAP(CMainFrame, CMDIFrameWnd)
+	//{{AFX_MSG_MAP(CMainFrame)
+	ON_WM_CREATE()
+	ON_COMMAND(ID_VIEW_THEME_OFFICEXP, OnViewThemeOfficeXP)
+	ON_UPDATE_COMMAND_UI(ID_VIEW_THEME_OFFICEXP, OnUpdateViewThemeOfficeXP)
+	//}}AFX_MSG_MAP
+	ON_WM_CLOSE()
+#ifdef _XTP_INCLUDE_COMMANDBARS
+	ON_COMMAND(XTP_ID_CUSTOMIZE, OnCustomize)
+#endif
+
+END_MESSAGE_MAP()
+
+static UINT indicators[] =
+{
+	ID_SEPARATOR,           // status line indicator
+	ID_INDICATOR_CAPS,
+	ID_INDICATOR_NUM,
+	ID_INDICATOR_SCRL,
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CMainFrame construction/destruction
+
+CMainFrame::CMainFrame()
+{
+	// initialize themes.
+	m_iTheme = m_regMgr.GetProfileInt(
+		_T("Settings"), _T("Theme"), xtpControlThemeOfficeXP);
+}
+
+CMainFrame::~CMainFrame()
+{
+	m_regMgr.WriteProfileInt(
+		_T("Settings"), _T("Theme"), m_iTheme);
+}
+
+int CMainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct)
+{
+	if (CMDIFrameWnd::OnCreate(lpCreateStruct) == -1)
+		return -1;
+
+
+#ifdef _XTP_INCLUDE_COMMANDBARS
+	if (!m_wndStatusBar.Create(this) ||
+		!m_wndStatusBar.SetIndicators(indicators,
+		sizeof(indicators)/sizeof(UINT)))
+	{
+		TRACE0("Failed to create status bar\n");
+		return -1;      // fail to create
+	}
+
+	if (!InitCommandBars())
+		return -1;
+
+	CXTPCommandBars* pCommandBars = GetCommandBars();
+	pCommandBars->SetMenu(_T("Menu Bar"), IDR_MAINFRAME);
+
+	CXTPToolBar* pCommandBar = (CXTPToolBar*)pCommandBars->Add(_T("Standard"), xtpBarTop);
+	if (!pCommandBar ||
+		!pCommandBar->LoadToolBar(IDR_MAINFRAME))
+	{
+		TRACE0("Failed to create toolbar\n");
+		return -1;
+	}
+
+	// Load the previous state for command bars.
+	LoadCommandBars(_T("CommandBars"));
+#else
+
+#ifdef _XTP_INCLUDE_CONTROLBARS
+	if (!m_wndMenuBar.CreateEx(this, TBSTYLE_FLAT, WS_CHILD | WS_VISIBLE | CBRS_TOP
+		| CBRS_GRIPPER | CBRS_TOOLTIPS | CBRS_FLYBY | CBRS_SIZE_DYNAMIC) ||
+		!m_wndMenuBar.LoadMenuBar(IDR_MAINFRAME))
+	{
+		TRACE0("Failed to create menubar\n");
+		return -1;      // fail to create
+	}
+
+	if (!m_wndToolBar.CreateEx(this, TBSTYLE_FLAT, WS_CHILD | WS_VISIBLE | CBRS_TOP
+		| CBRS_GRIPPER | CBRS_TOOLTIPS | CBRS_FLYBY | CBRS_SIZE_DYNAMIC) ||
+		!m_wndToolBar.LoadToolBar(IDR_MAINFRAME))
+	{
+		TRACE0("Failed to create toolbar\n");
+		return -1;      // fail to create
+	}
+#else
+	if (!m_wndToolBar.Create(this) ||
+		!m_wndToolBar.LoadToolBar(IDR_MAINFRAME))
+	{
+		TRACE0("Failed to create toolbar\n");
+		return -1;      // fail to create
+	}
+
+	// TODO: Remove this if you don't want tool tips or a resizeable toolbar
+	m_wndToolBar.SetWindowText(_T("Address Bar"));
+	m_wndToolBar.ModifyStyle(0, TBSTYLE_FLAT);
+	m_wndToolBar.SetBarStyle(m_wndToolBar.GetBarStyle() |
+		CBRS_TOOLTIPS | CBRS_FLYBY | CBRS_SIZE_DYNAMIC);
+#endif
+
+	if (!m_wndStatusBar.Create(this) ||
+		!m_wndStatusBar.SetIndicators(indicators,
+		  sizeof(indicators)/sizeof(UINT)))
+	{
+		TRACE0("Failed to create status bar\n");
+		return -1;      // fail to create
+	}
+
+	// TODO: Delete these three lines if you don't want the toolbar to
+	//  be dockable
+#ifdef _XTP_INCLUDE_CONTROLBARS
+	m_wndMenuBar.EnableDocking(CBRS_ALIGN_ANY);
+#endif
+	m_wndToolBar.EnableDocking(CBRS_ALIGN_ANY);
+	EnableDocking(CBRS_ALIGN_ANY);
+#ifdef _XTP_INCLUDE_CONTROLBARS
+	DockControlBar(&m_wndMenuBar);
+#endif
+	DockControlBar(&m_wndToolBar);
+#ifdef _XTP_INCLUDE_CONTROLBARS
+
+	// TODO: Remove this line if you don't want cool menus.
+	InstallCoolMenus(IDR_MAINFRAME);
+#endif
+#endif
+	SetTheme(m_iTheme);
+
+	return 0;
+}
+
+BOOL CMainFrame::PreCreateWindow(CREATESTRUCT& cs)
+{
+	if( !CMDIFrameWnd::PreCreateWindow(cs) )
+		return FALSE;
+
+	cs.lpszClass = _T("XTPMainFrame");
+	CXTPDrawHelpers::RegisterWndClass(AfxGetInstanceHandle(), cs.lpszClass, 
+		CS_DBLCLKS, AfxGetApp()->LoadIcon(IDR_MAINFRAME));
+
+	return TRUE;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CMainFrame diagnostics
+
+#ifdef _DEBUG
+void CMainFrame::AssertValid() const
+{
+	CMDIFrameWnd::AssertValid();
+}
+
+void CMainFrame::Dump(CDumpContext& dc) const
+{
+	CMDIFrameWnd::Dump(dc);
+}
+
+#endif //_DEBUG
+
+/////////////////////////////////////////////////////////////////////////////
+// CMainFrame message handlers
+
+BOOL CMainFrame::ShowWindowEx(int nCmdShow)
+{
+	ASSERT_VALID(this);
+
+	// Restore frame window size and position.
+	m_wndPosition.LoadWindowPos(this);
+	nCmdShow = m_wndPosition.showCmd;
+
+	return ShowWindow(nCmdShow);
+}
+
+void CMainFrame::OnClose()
+{
+#ifdef _XTP_INCLUDE_COMMANDBARS
+	// Save the current state for command bars.
+	SaveCommandBars(_T("CommandBars"));
+#endif
+
+	// Save frame window size and position.
+	m_wndPosition.SaveWindowPos(this);
+
+	CMDIFrameWnd::OnClose();
+}
+
+#ifdef _XTP_INCLUDE_COMMANDBARS
+void CMainFrame::OnCustomize()
+{
+	// get a pointer to the command bars object.
+	CXTPCommandBars* pCommandBars = GetCommandBars();
+	if (pCommandBars == NULL)
+		return;
+
+	// instanciate the customize dialog
+	CXTPCustomizeSheet dlg(pCommandBars);
+
+	// add the options page to the customize dialog.
+	CXTPCustomizeOptionsPage pageOptions(&dlg);
+	dlg.AddPage(&pageOptions);
+
+	// add the commands page to the customize dialog.
+	CXTPCustomizeCommandsPage* pPageCommands = dlg.GetCommandsPage();
+	pPageCommands->AddCategories(IDR_MAINFRAME);
+
+	// initialize the commands page page.
+	pPageCommands->InsertAllCommandsCategory();
+	pPageCommands->InsertBuiltInMenus(IDR_MAINFRAME);
+	pPageCommands->InsertNewMenuCategory();
+
+	// display the customize dialog.
+	dlg.DoModal();
+}
+#endif
+
+void CMainFrame::SetTheme(int iTheme)
+{
+	m_iTheme = iTheme;
+
+#ifdef _XTP_INCLUDE_COMMANDBARS
+	XTPPaintManager()->SetTheme(m_iTheme == xtpControlThemeOfficeXP ? xtpThemeOfficeXP : xtpThemeNativeWinXP);
+	GetCommandBars()->GetPaintManager()->m_bAutoResizeIcons = TRUE;
+	GetCommandBars()->GetCommandBarsOptions()->SetDPIScallingOptions(TRUE);
+	GetCommandBars()->RedrawCommandBars();
+#endif
+
+	RedrawWindow( NULL, NULL,
+		RDW_INVALIDATE | RDW_UPDATENOW | RDW_ERASE | RDW_ALLCHILDREN );
+
+	RecalcLayout();
+}
+
+void CMainFrame::OnViewThemeOfficeXP() 
+{
+	SetTheme((m_iTheme == xtpControlThemeOfficeXP)? xtpControlThemeOffice2000: xtpControlThemeOfficeXP);
+}
+
+void CMainFrame::OnUpdateViewThemeOfficeXP(CCmdUI* pCmdUI) 
+{
+	pCmdUI->SetCheck(m_iTheme == xtpControlThemeOfficeXP);
+}

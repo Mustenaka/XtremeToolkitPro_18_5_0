@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{af8fbad6-f1cf-4d84-a027-1ef37de9b3f3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{a197e057-e747-4d5e-9392-7568473f8421}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{3a1e2f30-9ff2-4877-86c8-edf16249f7ef}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="EditConfig">
+      <UniqueIdentifier>{545ee835-4793-4975-9774-d762a52d4fe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Schemas">
+      <UniqueIdentifier>{fbc95e62-96b9-41a3-88ba-43a4bddc8447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EditConfig\Themes">
+      <UniqueIdentifier>{1ef75df9-6cd4-441d-bb2d-5fea92f32d04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Styles">
+      <UniqueIdentifier>{fda1c379-fcd8-4faf-8561-d49f79f3faf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docs">
+      <UniqueIdentifier>{e7698bcc-f777-4e3d-9d1e-00fe07f31357}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicHelpView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_VisualStudio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_VisualStudioDoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_VisualStudioView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneColorSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewClass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewOutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewProperties.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewSolution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneViewTaskPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PaneWnd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GUI_VisualStudio.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicHelpView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_VisualStudio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_VisualStudioDoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI_VisualStudioView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneColorSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewClass.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewProperties.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewSolution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneViewTaskPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaneWnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\black.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\clear.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxhelp_hide.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxhelp_show.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxsample_hide.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ctxsample_show.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\dynamic_help.htm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FullScreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FullScreenDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\FullScreenLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\GUI_VisualStudioDoc.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_classtree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_classtreeDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_classtreeLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_filetree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_filetreeDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_filetreeLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_restree.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_restreeDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\img_restreeLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MenuBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MenuBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\MenuBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PaneProperties.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PanePropertiesDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PanePropertiesLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PaneViewSolution.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PaneViewSolutionDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PaneViewSolutionLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ThemeBar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ThemeBarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ThemeBarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\toolbar_.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolbarLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Toolbox.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolboxDark.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ToolboxLight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Web.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WebDark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\WebLight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\white.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Config\SyntaxEdit.ini">
+      <Filter>EditConfig</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\SyntaxEditDark.ini">
+      <Filter>EditConfig</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\SyntaxEditLight.ini">
+      <Filter>EditConfig</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cpp.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cppDark.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_cppLight.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_HTML_ASP.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_ini.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_nsi.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_pascal.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_schclass.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Schemas\_sql.schclass">
+      <Filter>EditConfig\Schemas</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema0.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Config\Themes\colorSchema1.ini">
+      <Filter>EditConfig\Themes</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2012.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\..\Source\Styles\VisualStudio2015.dll">
+      <Filter>Styles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\SampleFrm.txt">
+      <Filter>Docs</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

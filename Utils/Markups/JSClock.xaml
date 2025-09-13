@@ -1,0 +1,65 @@
+<Page
+    xmlns='http://schemas.microsoft.com/winfx/2006/xaml/presentation'
+    xmlns:x='http://schemas.microsoft.com/winfx/2006/xaml'
+    xmlns:xtp='urn:schemas-codejock-com:xaml-extensions'>
+  <Canvas Width="197" Height="197">
+    <Image Source="file://Markups\clockface.png" Width="197" Height="197" />
+    <TextBlock Name="TimeShadow" FontFamily="Impact" FontSize='20' Foreground='Black' Canvas.Left='69' Canvas.Top='121' />
+    <TextBlock Name="Time" FontFamily="Impact" FontSize='20' Foreground='White' Canvas.Left='68' Canvas.Top='120' />
+    <Border Canvas.Left='50' Canvas.Top='90' Padding='1' BorderBrush='#404040' Background='White' BorderThickness='1'>
+      <TextBlock Name="Month" FontFamily="Impact" FontSize='14' Foreground='#303030' />
+    </Border>
+    <Border Canvas.Left='130' Canvas.Top='90' Padding='1' BorderBrush='#404040' Background='White' BorderThickness='1'>
+      <TextBlock Name="Day" FontFamily="Impact" FontSize='14' Foreground='#303030' />
+    </Border>
+    <Image Source="file://Markups\HourStick.png" Name="HourStick" Width="4" Height="80" Canvas.Left="97" Canvas.Top="40">
+      <Image.RenderTransform>
+        <RotateTransform Angle="0" CenterX="2" CenterY="60" />
+      </Image.RenderTransform>
+    </Image>
+    <Image Source="file://Markups\MinuteStick.png" Name="MinuteStick" Width="2" Height="100" Canvas.Left="98" Canvas.Top="20">
+      <Image.RenderTransform>
+        <RotateTransform Angle="0" CenterX="1" CenterY="80" />
+      </Image.RenderTransform>
+    </Image>
+    <Image Source="file://Markups\SecondStick.png" Name="SecondStick" Width="2" Height="100" Canvas.Left="98" Canvas.Top="20">
+      <Image.RenderTransform>
+        <RotateTransform Angle="0" CenterX="1" CenterY="80" />
+      </Image.RenderTransform>
+    </Image>
+    <Image Source='file://Markups\redspot.png' Width="20" Height="20" Canvas.Left="89" Canvas.Top="90" />
+  </Canvas>
+
+  <xtp:Script Language='JScript'>
+    //<![CDATA[
+    var formatTimeValue = function(value) {
+      var str = value.toString();
+      return 1 == str.length ? '0' + str : str;
+    };
+
+    var getStickAngle = function(value, total) {
+      return ((value * 360) / total);
+    };
+
+    var clockLoop = function() {
+      MarkupContext.FreezeUpdates();
+
+      var time = new Date();
+      Time.Text = TimeShadow.Text = formatTimeValue(time.getHours()) 
+        + ':' + formatTimeValue(time.getMinutes())
+        + ':' + formatTimeValue(time.getSeconds());
+      Month.Text = formatTimeValue(time.getMonth() + 1);
+      Day.Text = formatTimeValue(time.getDate());
+
+      SecondStick.RenderTransform.Angle = getStickAngle(time.getSeconds(), 60);
+      MinuteStick.RenderTransform.Angle = getStickAngle(time.getMinutes(), 60);
+      HourStick.RenderTransform.Angle = getStickAngle(time.getHours(), 12);
+
+      MarkupContext.UnfreezeUpdates();
+      setTimeout(clockLoop, 1000);
+    };
+
+    clockLoop();
+    //]]>
+  </xtp:Script>
+</Page>

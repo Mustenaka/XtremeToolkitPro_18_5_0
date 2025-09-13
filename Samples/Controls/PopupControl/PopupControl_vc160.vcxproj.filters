@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3ab7326c-b599-41c0-9528-f38b7656b699}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6f021dba-374f-4c59-9628-18130d5d731a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{42b8df64-ccf1-418f-afc7-403714a26a8e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PopupControlDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupControlDemoDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PopupControlDemo.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PopupControlDemo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopupControlDemoDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CaptionMSN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CjSample.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CloseMSN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CloseOffice.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\CloseTooltip.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\cross.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\flag.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00001.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00002.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00003.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\ico00004.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\icon3.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\letter.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LogoMSN.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\LogoOffice.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\msn.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Norm.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PopupControlDemo.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\PopupControlDemo.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Press.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\scsiopen.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Sel.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\word2000.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\Readme.rtf" />
+  </ItemGroup>
+</Project>
